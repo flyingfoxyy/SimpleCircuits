@@ -1,5 +1,3 @@
 # SimpleCircuits
-A collection of simple circuits, which can be used to evaluate technology mapping or logic optimization algorithmi in ABC.
+A collection of simple circuits, which can be used to evaluate technology mapping or logic optimization algorithm in Berkeley ABC.
 
-
-Some circuits are in BLIF format.
