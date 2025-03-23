@@ -1,0 +1,1121 @@
+.model netlist
+.inputs ys__n6 ys__n12 ys__n14 ys__n18 ys__n24 ys__n26 ys__n46 ys__n48 ys__n50 ys__n52 ys__n54 ys__n57 ys__n61 ys__n64 ys__n68 ys__n71 ys__n73 ys__n77 ys__n79 ys__n81 ys__n83 ys__n85 ys__n87 ys__n89 ys__n91 ys__n94 ys__n97 ys__n99 ys__n102 ys__n105 ys__n108 ys__n111 ys__n114 ys__n117 ys__n122 ys__n129 ys__n130 ys__n133 ys__n134 ys__n136 ys__n137 ys__n139 ys__n140 ys__n142 ys__n143 ys__n145 ys__n146 ys__n148 ys__n149 ys__n151 ys__n152 ys__n154 ys__n157 ys__n159 ys__n161 ys__n163 ys__n165 ys__n167 ys__n169 ys__n171 ys__n174 ys__n176 ys__n178 ys__n180 ys__n182 ys__n184 ys__n186 ys__n190 ys__n213 ys__n216 ys__n218 ys__n220 ys__n222 ys__n224 ys__n226 ys__n228 ys__n230 ys__n231 ys__n232 ys__n234 ys__n235 ys__n237 ys__n238 ys__n240 ys__n241 ys__n243 ys__n244 ys__n246 ys__n247 ys__n249 ys__n250 ys__n252 ys__n253 ys__n255 ys__n256 ys__n259 ys__n261 ys__n263 ys__n265 ys__n267 ys__n269 ys__n271 ys__n282 ys__n285 ys__n287 ys__n289 ys__n291 ys__n293 ys__n295 ys__n297 ys__n299 ys__n301 ys__n303 ys__n305 ys__n307 ys__n309 ys__n311 ys__n313 ys__n315 ys__n330 ys__n333 ys__n335 ys__n337 ys__n339 ys__n341 ys__n369 ys__n370 ys__n372 ys__n373 ys__n377 ys__n380 ys__n381 ys__n382 ys__n385 ys__n388 ys__n397
+.outputs ys__n1 ys__n2 ys__n3 ys__n4 ys__n5 ys__n11 ys__n17 ys__n22 ys__n23 ys__n56 ys__n59 ys__n76 ys__n78 ys__n80 ys__n82 ys__n84 ys__n86 ys__n88 ys__n90 ys__n92 ys__n96 ys__n98 ys__n101 ys__n104 ys__n107 ys__n110 ys__n113 ys__n116 ys__n119 ys__n121 ys__n125 ys__n128 ys__n132 ys__n135 ys__n138 ys__n141 ys__n144 ys__n147 ys__n150 ys__n153 ys__n156 ys__n158 ys__n160 ys__n162 ys__n164 ys__n166 ys__n168 ys__n170 ys__n173 ys__n175 ys__n177 ys__n179 ys__n181 ys__n183 ys__n185 ys__n187 ys__n191 ys__n194 ys__n197 ys__n200 ys__n203 ys__n206 ys__n209 ys__n212 ys__n215 ys__n217 ys__n219 ys__n221 ys__n223 ys__n225 ys__n227 ys__n229 ys__n258 ys__n260 ys__n262 ys__n264 ys__n266 ys__n268 ys__n270 ys__n272 ys__n274 ys__n275 ys__n276 ys__n277 ys__n278 ys__n279 ys__n280 ys__n281 ys__n284 ys__n286 ys__n288 ys__n290 ys__n292 ys__n294 ys__n296 ys__n298 ys__n317 ys__n318 ys__n319 ys__n320 ys__n321 ys__n322 ys__n323 ys__n324 ys__n328 ys__n329 ys__n332 ys__n342 ys__n343 ys__n344 ys__n345 ys__n346 ys__n347 ys__n348 ys__n349 ys__n350 ys__n351 ys__n352 ys__n353 ys__n354 ys__n355 ys__n356 ys__n357 ys__n358 ys__n359 ys__n360 ys__n361 ys__n362 ys__n363 ys__n364 ys__n365 ys__n368 ys__n375 ys__n386 ys__n390 ys__n391 ys__n392 ys__n393 ys__n394 ys__n395 ys__n396 ys__n398 ys__n399 ys__n400 ys__n401
+# ys__n0     $and$IWLS/opencores/rtl/sasc/sasc_top.v:0$81_Y
+# ys__n1     $and$IWLS/opencores/rtl/sasc/sasc_top.v:0$82_Y
+# ys__n2     $auto$dff2dffe.cc:158:make_patterns_logic$1240
+# ys__n3     \load_e
+# ys__n4     $and$IWLS/opencores/rtl/sasc/sasc_top.v:0$61_Y
+# ys__n5     $auto$dff2dffe.cc:158:make_patterns_logic$1282
+# ys__n6     \dpll_state [0]
+# ys__n7     $auto$simplemap.cc:250:simplemap_eqne$1519 [1]
+# ys__n8     $auto$simplemap.cc:256:simplemap_eqne$1523
+# ys__n9     $auto$simplemap.cc:250:simplemap_eqne$1529 [0]
+# ys__n10    $auto$simplemap.cc:256:simplemap_eqne$1533
+# ys__n11    $auto$alumacc.cc:485:replace_alu$929.S [0]
+# ys__n12    \tx_bit_cnt [1]
+# ys__n13    $auto$simplemap.cc:127:simplemap_reduce$1599 [0]
+# ys__n14    \tx_bit_cnt [2]
+# ys__n15    $auto$simplemap.cc:250:simplemap_eqne$1592 [3]
+# ys__n16    $auto$simplemap.cc:127:simplemap_reduce$1599 [1]
+# ys__n17    $0\shift_en[0:0]
+# ys__n18    \rx_bit_cnt [0]
+# ys__n19    $auto$simplemap.cc:250:simplemap_eqne$1630 [1]
+# ys__n20    $auto$simplemap.cc:127:simplemap_reduce$1637 [0]
+# ys__n21    $auto$simplemap.cc:127:simplemap_reduce$1637 [1]
+# ys__n22    $0\rx_go[0:0]
+# ys__n23    $auto$alumacc.cc:485:replace_alu$932.S [0]
+# ys__n24    \rx_bit_cnt [1]
+# ys__n25    $auto$simplemap.cc:127:simplemap_reduce$1650 [0]
+# ys__n26    \rx_bit_cnt [2]
+# ys__n27    $auto$simplemap.cc:250:simplemap_eqne$1630 [3]
+# ys__n28    $auto$simplemap.cc:256:simplemap_eqne$1648
+# ys__n29    $procmux$794_CMP
+# ys__n30    $procmux$779_CMP
+# ys__n31    $auto$simplemap.cc:127:simplemap_reduce$1696
+# ys__n32    $procmux$773_CMP
+# ys__n33    $auto$opt_reduce.cc:134:opt_mux$925
+# ys__n34    $auto$simplemap.cc:250:simplemap_eqne$1780 [0]
+# ys__n35    $auto$simplemap.cc:250:simplemap_eqne$1780 [1]
+# ys__n36    $auto$simplemap.cc:256:simplemap_eqne$1784
+# ys__n37    $auto$simplemap.cc:250:simplemap_eqne$1793 [0]
+# ys__n38    $auto$simplemap.cc:250:simplemap_eqne$1793 [1]
+# ys__n39    $auto$simplemap.cc:256:simplemap_eqne$1797
+# ys__n40    $auto$simplemap.cc:250:simplemap_eqne$1835 [0]
+# ys__n41    $auto$simplemap.cc:250:simplemap_eqne$1835 [1]
+# ys__n42    $auto$simplemap.cc:256:simplemap_eqne$1839
+# ys__n43    $auto$simplemap.cc:250:simplemap_eqne$1848 [0]
+# ys__n44    $auto$simplemap.cc:250:simplemap_eqne$1848 [1]
+# ys__n45    $auto$simplemap.cc:256:simplemap_eqne$1852
+# ys__n46    \dpll_state [1]
+# ys__n47    $auto$simplemap.cc:168:logic_reduce$1516
+# ys__n48    \txf_empty_r
+# ys__n49    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$53_Y
+# ys__n50    \shift_en
+# ys__n51    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$54_Y
+# ys__n52    $auto$iopadmap.cc:449:execute$2032
+# ys__n53    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$56_Y
+# ys__n54    \rx_go
+# ys__n55    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$80_Y
+# ys__n56    $0\rx_valid[0:0]
+# ys__n57    \rx_valid_r
+# ys__n58    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$89_Y
+# ys__n59    \rxf_full
+# ys__n60    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$91_Y
+# ys__n61    \rx_sio_ce_r2
+# ys__n62    $logic_not$IWLS/opencores/rtl/sasc/sasc_top.v:0$107_Y
+# ys__n63    $techmap\tx_fifo.$eq$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$47_Y
+# ys__n64    \tx_fifo.gb
+# ys__n65    $techmap\tx_fifo.$logic_not$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$41_Y
+# ys__n66    $techmap\tx_fifo.$eq$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$40_Y
+# ys__n67    $techmap\rx_fifo.$eq$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$47_Y
+# ys__n68    \rx_fifo.gb
+# ys__n69    $techmap\rx_fifo.$logic_not$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$41_Y
+# ys__n70    $techmap\rx_fifo.$eq$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$40_Y
+# ys__n71    \change
+# ys__n72    1'0
+# ys__n73    $auto$iopadmap.cc:449:execute$2022
+# ys__n74    $procmux$807_Y
+# ys__n75    $auto$simplemap.cc:250:simplemap_eqne$1673
+# ys__n76    $procmux$810_Y
+# ys__n77    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$83_Y [0]
+# ys__n78    $procmux$824_Y [0]
+# ys__n79    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$83_Y [1]
+# ys__n80    $procmux$824_Y [1]
+# ys__n81    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$83_Y [2]
+# ys__n82    $procmux$824_Y [2]
+# ys__n83    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$83_Y [3]
+# ys__n84    $procmux$824_Y [3]
+# ys__n85    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$68_Y [0]
+# ys__n86    $procmux$837_Y [0]
+# ys__n87    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$68_Y [1]
+# ys__n88    $procmux$837_Y [1]
+# ys__n89    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$68_Y [2]
+# ys__n90    $procmux$837_Y [2]
+# ys__n91    $add$IWLS/opencores/rtl/sasc/sasc_top.v:0$68_Y [3]
+# ys__n92    $procmux$837_Y [3]
+# ys__n93    1'1
+# ys__n94    \hold_reg [0]
+# ys__n95    $or$IWLS/opencores/rtl/sasc/sasc_top.v:0$64_Y
+# ys__n96    $procmux$843_Y
+# ys__n97    \hold_reg [9]
+# ys__n98    $procmux$850_Y [9]
+# ys__n99    \hold_reg [2]
+# ys__n100   \txd_p [0]
+# ys__n101   $0\hold_reg[9:0] [1]
+# ys__n102   \hold_reg [3]
+# ys__n103   \txd_p [1]
+# ys__n104   $0\hold_reg[9:0] [2]
+# ys__n105   \hold_reg [4]
+# ys__n106   \txd_p [2]
+# ys__n107   $0\hold_reg[9:0] [3]
+# ys__n108   \hold_reg [5]
+# ys__n109   \txd_p [3]
+# ys__n110   $0\hold_reg[9:0] [4]
+# ys__n111   \hold_reg [6]
+# ys__n112   \txd_p [4]
+# ys__n113   $0\hold_reg[9:0] [5]
+# ys__n114   \hold_reg [7]
+# ys__n115   \txd_p [5]
+# ys__n116   $0\hold_reg[9:0] [6]
+# ys__n117   \hold_reg [8]
+# ys__n118   \txd_p [6]
+# ys__n119   $0\hold_reg[9:0] [7]
+# ys__n120   \txd_p [7]
+# ys__n121   $0\hold_reg[9:0] [8]
+# ys__n122   \rx_fifo.re
+# ys__n123   $techmap\rx_fifo.$procmux$860_Y
+# ys__n124   $techmap\rx_fifo.$and$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$48_Y
+# ys__n125   $techmap\rx_fifo.$procmux$863_Y
+# ys__n126   $techmap\tx_fifo.$procmux$860_Y
+# ys__n127   $techmap\tx_fifo.$and$IWLS/opencores/rtl/sasc/sasc_fifo4.v:0$48_Y
+# ys__n128   $techmap\tx_fifo.$procmux$863_Y
+# ys__n129   \rx_fifo.mem[0] [0]
+# ys__n130   \rxr [2]
+# ys__n131   $memory\rx_fifo.mem$wren[0][0][0]$y$1118
+# ys__n132   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [0]
+# ys__n133   \rx_fifo.mem[0] [1]
+# ys__n134   \rxr [3]
+# ys__n135   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [1]
+# ys__n136   \rx_fifo.mem[0] [2]
+# ys__n137   \rxr [4]
+# ys__n138   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [2]
+# ys__n139   \rx_fifo.mem[0] [3]
+# ys__n140   \rxr [5]
+# ys__n141   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [3]
+# ys__n142   \rx_fifo.mem[0] [4]
+# ys__n143   \rxr [6]
+# ys__n144   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [4]
+# ys__n145   \rx_fifo.mem[0] [5]
+# ys__n146   \rxr [7]
+# ys__n147   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [5]
+# ys__n148   \rx_fifo.mem[0] [6]
+# ys__n149   \rxr [8]
+# ys__n150   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [6]
+# ys__n151   \rx_fifo.mem[0] [7]
+# ys__n152   \rxr [9]
+# ys__n153   $memory\rx_fifo.mem$wrmux[0][0][0]$y$1120 [7]
+# ys__n154   \rx_fifo.mem[3] [0]
+# ys__n155   $memory\rx_fifo.mem$wren[3][0][0]$y$1140
+# ys__n156   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [0]
+# ys__n157   \rx_fifo.mem[3] [1]
+# ys__n158   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [1]
+# ys__n159   \rx_fifo.mem[3] [2]
+# ys__n160   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [2]
+# ys__n161   \rx_fifo.mem[3] [3]
+# ys__n162   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [3]
+# ys__n163   \rx_fifo.mem[3] [4]
+# ys__n164   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [4]
+# ys__n165   \rx_fifo.mem[3] [5]
+# ys__n166   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [5]
+# ys__n167   \rx_fifo.mem[3] [6]
+# ys__n168   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [6]
+# ys__n169   \rx_fifo.mem[3] [7]
+# ys__n170   $memory\rx_fifo.mem$wrmux[3][0][0]$y$1142 [7]
+# ys__n171   \rx_fifo.mem[2] [0]
+# ys__n172   $memory\rx_fifo.mem$wren[2][0][0]$y$1134
+# ys__n173   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [0]
+# ys__n174   \rx_fifo.mem[2] [1]
+# ys__n175   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [1]
+# ys__n176   \rx_fifo.mem[2] [2]
+# ys__n177   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [2]
+# ys__n178   \rx_fifo.mem[2] [3]
+# ys__n179   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [3]
+# ys__n180   \rx_fifo.mem[2] [4]
+# ys__n181   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [4]
+# ys__n182   \rx_fifo.mem[2] [5]
+# ys__n183   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [5]
+# ys__n184   \rx_fifo.mem[2] [6]
+# ys__n185   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [6]
+# ys__n186   \rx_fifo.mem[2] [7]
+# ys__n187   $memory\rx_fifo.mem$wrmux[2][0][0]$y$1136 [7]
+# ys__n188   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [0]
+# ys__n189   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [0]
+# ys__n190   \rx_fifo.rp [1]
+# ys__n191   \rx_fifo.dout [0]
+# ys__n192   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [1]
+# ys__n193   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [1]
+# ys__n194   \rx_fifo.dout [1]
+# ys__n195   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [2]
+# ys__n196   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [2]
+# ys__n197   \rx_fifo.dout [2]
+# ys__n198   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [3]
+# ys__n199   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [3]
+# ys__n200   \rx_fifo.dout [3]
+# ys__n201   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [4]
+# ys__n202   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [4]
+# ys__n203   \rx_fifo.dout [4]
+# ys__n204   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [5]
+# ys__n205   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [5]
+# ys__n206   \rx_fifo.dout [5]
+# ys__n207   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [6]
+# ys__n208   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [6]
+# ys__n209   \rx_fifo.dout [6]
+# ys__n210   $memory\rx_fifo.mem$rdmux[0][0][0]$a$1103 [7]
+# ys__n211   $memory\rx_fifo.mem$rdmux[0][0][0]$b$1104 [7]
+# ys__n212   \rx_fifo.dout [7]
+# ys__n213   \rx_fifo.mem[1] [0]
+# ys__n214   $memory\rx_fifo.mem$wren[1][0][0]$y$1126
+# ys__n215   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [0]
+# ys__n216   \rx_fifo.mem[1] [1]
+# ys__n217   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [1]
+# ys__n218   \rx_fifo.mem[1] [2]
+# ys__n219   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [2]
+# ys__n220   \rx_fifo.mem[1] [3]
+# ys__n221   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [3]
+# ys__n222   \rx_fifo.mem[1] [4]
+# ys__n223   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [4]
+# ys__n224   \rx_fifo.mem[1] [5]
+# ys__n225   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [5]
+# ys__n226   \rx_fifo.mem[1] [6]
+# ys__n227   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [6]
+# ys__n228   \rx_fifo.mem[1] [7]
+# ys__n229   $memory\rx_fifo.mem$wrmux[1][0][0]$y$1128 [7]
+# ys__n230   \tx_fifo.mem[2] [0]
+# ys__n231   \tx_fifo.mem[3] [0]
+# ys__n232   \tx_fifo.rp [0]
+# ys__n233   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [0]
+# ys__n234   \tx_fifo.mem[2] [1]
+# ys__n235   \tx_fifo.mem[3] [1]
+# ys__n236   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [1]
+# ys__n237   \tx_fifo.mem[2] [2]
+# ys__n238   \tx_fifo.mem[3] [2]
+# ys__n239   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [2]
+# ys__n240   \tx_fifo.mem[2] [3]
+# ys__n241   \tx_fifo.mem[3] [3]
+# ys__n242   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [3]
+# ys__n243   \tx_fifo.mem[2] [4]
+# ys__n244   \tx_fifo.mem[3] [4]
+# ys__n245   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [4]
+# ys__n246   \tx_fifo.mem[2] [5]
+# ys__n247   \tx_fifo.mem[3] [5]
+# ys__n248   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [5]
+# ys__n249   \tx_fifo.mem[2] [6]
+# ys__n250   \tx_fifo.mem[3] [6]
+# ys__n251   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [6]
+# ys__n252   \tx_fifo.mem[2] [7]
+# ys__n253   \tx_fifo.mem[3] [7]
+# ys__n254   $memory\tx_fifo.mem$rdmux[0][0][0]$b$1153 [7]
+# ys__n255   \rx_fifo.rp [0]
+# ys__n256   \tx_fifo.din [0]
+# ys__n257   $memory\tx_fifo.mem$wren[3][0][0]$y$1189
+# ys__n258   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [0]
+# ys__n259   \tx_fifo.din [1]
+# ys__n260   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [1]
+# ys__n261   \tx_fifo.din [2]
+# ys__n262   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [2]
+# ys__n263   \tx_fifo.din [3]
+# ys__n264   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [3]
+# ys__n265   \tx_fifo.din [4]
+# ys__n266   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [4]
+# ys__n267   \tx_fifo.din [5]
+# ys__n268   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [5]
+# ys__n269   \tx_fifo.din [6]
+# ys__n270   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [6]
+# ys__n271   \tx_fifo.din [7]
+# ys__n272   $memory\tx_fifo.mem$wrmux[3][0][0]$y$1191 [7]
+# ys__n273   $memory\tx_fifo.mem$wren[2][0][0]$y$1183
+# ys__n274   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [0]
+# ys__n275   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [1]
+# ys__n276   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [2]
+# ys__n277   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [3]
+# ys__n278   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [4]
+# ys__n279   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [5]
+# ys__n280   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [6]
+# ys__n281   $memory\tx_fifo.mem$wrmux[2][0][0]$y$1185 [7]
+# ys__n282   \tx_fifo.mem[1] [0]
+# ys__n283   $memory\tx_fifo.mem$wren[1][0][0]$y$1175
+# ys__n284   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [0]
+# ys__n285   \tx_fifo.mem[1] [1]
+# ys__n286   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [1]
+# ys__n287   \tx_fifo.mem[1] [2]
+# ys__n288   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [2]
+# ys__n289   \tx_fifo.mem[1] [3]
+# ys__n290   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [3]
+# ys__n291   \tx_fifo.mem[1] [4]
+# ys__n292   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [4]
+# ys__n293   \tx_fifo.mem[1] [5]
+# ys__n294   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [5]
+# ys__n295   \tx_fifo.mem[1] [6]
+# ys__n296   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [6]
+# ys__n297   \tx_fifo.mem[1] [7]
+# ys__n298   $memory\tx_fifo.mem$wrmux[1][0][0]$y$1177 [7]
+# ys__n299   \tx_fifo.mem[0] [0]
+# ys__n300   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [0]
+# ys__n301   \tx_fifo.mem[0] [1]
+# ys__n302   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [1]
+# ys__n303   \tx_fifo.mem[0] [2]
+# ys__n304   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [2]
+# ys__n305   \tx_fifo.mem[0] [3]
+# ys__n306   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [3]
+# ys__n307   \tx_fifo.mem[0] [4]
+# ys__n308   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [4]
+# ys__n309   \tx_fifo.mem[0] [5]
+# ys__n310   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [5]
+# ys__n311   \tx_fifo.mem[0] [6]
+# ys__n312   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [6]
+# ys__n313   \tx_fifo.mem[0] [7]
+# ys__n314   $memory\tx_fifo.mem$rdmux[0][0][0]$a$1152 [7]
+# ys__n315   \tx_fifo.rp [1]
+# ys__n316   $memory\tx_fifo.mem$wren[0][0][0]$y$1167
+# ys__n317   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [0]
+# ys__n318   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [1]
+# ys__n319   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [2]
+# ys__n320   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [3]
+# ys__n321   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [4]
+# ys__n322   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [5]
+# ys__n323   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [6]
+# ys__n324   $memory\tx_fifo.mem$wrmux[0][0][0]$y$1169 [7]
+# ys__n325   $2\dpll_next_state[1:0]
+# ys__n326   $techmap$techmap1824$auto$pmux2shiftx.cc:720:execute$928.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$1823_Y [1]
+# ys__n327   $techmap$techmap1824$auto$pmux2shiftx.cc:720:execute$928.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$1822_Y [0]
+# ys__n328   \dpll_next_state [0]
+# ys__n329   \dpll_next_state [1]
+# ys__n330   \rxd_s
+# ys__n331   $eq$IWLS/opencores/rtl/sasc/sasc_top.v:0$76_Y
+# ys__n332   \rx_sio_ce_d
+# ys__n333   \rx_fifo.wp [0]
+# ys__n334   $auto$rtlil.cc:1905:Eq$1112
+# ys__n335   \rx_fifo.wp [1]
+# ys__n336   $auto$rtlil.cc:1905:Eq$1114
+# ys__n337   \tx_fifo.wp [0]
+# ys__n338   $auto$rtlil.cc:1905:Eq$1161
+# ys__n339   \tx_fifo.wp [1]
+# ys__n340   $auto$rtlil.cc:1905:Eq$1163
+# ys__n341   \rx_fifo.rst
+# ys__n342   $techmap$techmap2116$auto$simplemap.cc:420:simplemap_dff$975.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2090_Y
+# ys__n343   $techmap$techmap2104$auto$simplemap.cc:420:simplemap_dff$973.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2090_Y
+# ys__n344   $techmap$techmap2106$auto$simplemap.cc:420:simplemap_dff$982.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2090_Y
+# ys__n345   $techmap$techmap2118$auto$simplemap.cc:420:simplemap_dff$985.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n346   $techmap$techmap2112$auto$simplemap.cc:496:simplemap_adff$1069.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n347   $techmap$techmap2117$auto$simplemap.cc:496:simplemap_adff$957.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n348   $techmap$techmap2105$auto$simplemap.cc:420:simplemap_dff$981.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n349   $techmap$techmap2114$auto$simplemap.cc:420:simplemap_dff$979.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2090_Y
+# ys__n350   $techmap$techmap2101$auto$simplemap.cc:420:simplemap_dff$976.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n351   $techmap$techmap2113$auto$simplemap.cc:420:simplemap_dff$1068.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2086_Y
+# ys__n352   $techmap$techmap2115$auto$simplemap.cc:420:simplemap_dff$997.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n353   $techmap$techmap2103$auto$simplemap.cc:420:simplemap_dff$974.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n354   $techmap$techmap2108$auto$simplemap.cc:420:simplemap_dff$983.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2090_Y
+# ys__n355   $techmap$techmap2109$auto$simplemap.cc:496:simplemap_adff$1072.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n356   $techmap$techmap2119$auto$simplemap.cc:420:simplemap_dff$984.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2092_Y
+# ys__n357   $techmap$techmap2110$auto$simplemap.cc:496:simplemap_adff$1071.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n358   $techmap$techmap2111$auto$simplemap.cc:496:simplemap_adff$1070.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n359   $techmap$techmap2098$auto$simplemap.cc:496:simplemap_adff$1083.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n360   $techmap$techmap2096$auto$simplemap.cc:496:simplemap_adff$1082.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n361   $techmap$techmap2100$auto$simplemap.cc:496:simplemap_adff$1084.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n362   $techmap$techmap2099$auto$simplemap.cc:420:simplemap_dff$1081.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2086_Y
+# ys__n363   $techmap$techmap2097$auto$simplemap.cc:420:simplemap_dff$958.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2086_Y
+# ys__n364   $techmap$techmap2107$auto$simplemap.cc:496:simplemap_adff$956.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2084_Y
+# ys__n365   $techmap$techmap2102$auto$simplemap.cc:496:simplemap_adff$1085.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2082_Y
+# ys__n366   $auto$rtlil.cc:1897:And$1124
+# ys__n367   $and$IWLS/opencores/rtl/sasc/sasc_top.v:0$55_Y
+# ys__n368   $0\load[0:0]
+# ys__n369   \load
+# ys__n370   $auto$iopadmap.cc:449:execute$2023
+# ys__n371   $auto$rtlil.cc:1897:And$1165
+# ys__n372   \shift_en_r
+# ys__n373   \tx_bit_cnt [3]
+# ys__n374   $auto$alumacc.cc:485:replace_alu$935.lcu.g [1]
+# ys__n375   \rx_fifo.we
+# ys__n376   $auto$rtlil.cc:1897:And$1173
+# ys__n377   \rxd_r
+# ys__n378   \start
+# ys__n379   $auto$rtlil.cc:1897:And$1132
+# ys__n380   \rx_sio_ce
+# ys__n381   \rx_bit_cnt [3]
+# ys__n382   \rx_valid
+# ys__n383   $and$IWLS/opencores/rtl/sasc/sasc_top.v:0$90_Y
+# ys__n384   $auto$rtlil.cc:1897:And$1116
+# ys__n385   \rx_sio_ce_r1
+# ys__n386   $0\rx_sio_ce[0:0]
+# ys__n387   $auto$alumacc.cc:485:replace_alu$941.lcu.g [1]
+# ys__n388   \tx_fifo.we
+# ys__n389   $auto$rtlil.cc:1897:And$1181
+# ys__n390   \tx_fifo.wp_p1 [0]
+# ys__n391   \tx_fifo.wp_p1 [1]
+# ys__n392   \tx_fifo.full
+# ys__n393   \txf_empty
+# ys__n394   \rx_fifo.wp_p1 [0]
+# ys__n395   \rx_fifo.wp_p1 [1]
+# ys__n396   \rx_fifo.empty
+# ys__n397   \tx_bit_cnt [0]
+# ys__n398   \tx_fifo.rp_p1 [1]
+# ys__n399   \tx_fifo.rp_p1 [0]
+# ys__n400   \rx_fifo.rp_p1 [1]
+# ys__n401   \rx_fifo.rp_p1 [0]
+.names ys__n72
+.names ys__n93
+1
+.names ys__n55 ys__n378 ys__n0
+11 1
+.names ys__n54 ys__n380 ys__n1
+11 1
+.names ys__n0 ys__n1 ys__n2
+-1 1
+1- 1
+.names ys__n369 ys__n370 ys__n3
+11 1
+.names ys__n50 ys__n370 ys__n4
+11 1
+.names ys__n3 ys__n4 ys__n5
+-1 1
+1- 1
+.names ys__n46 ys__n93 ys__n7
+01 1
+10 1
+.names ys__n6 ys__n7 ys__n8
+-1 1
+1- 1
+.names ys__n6 ys__n93 ys__n9
+01 1
+10 1
+.names ys__n9 ys__n7 ys__n10
+-1 1
+1- 1
+.names ys__n93 ys__n397 ys__n11
+01 1
+10 1
+.names ys__n11 ys__n12 ys__n13
+-1 1
+1- 1
+.names ys__n373 ys__n93 ys__n15
+01 1
+10 1
+.names ys__n14 ys__n15 ys__n16
+-1 1
+1- 1
+.names ys__n13 ys__n16 ys__n17
+-1 1
+1- 1
+.names ys__n24 ys__n93 ys__n19
+01 1
+10 1
+.names ys__n18 ys__n19 ys__n20
+-1 1
+1- 1
+.names ys__n26 ys__n27 ys__n21
+-1 1
+1- 1
+.names ys__n20 ys__n21 ys__n22
+-1 1
+1- 1
+.names ys__n18 ys__n93 ys__n23
+01 1
+10 1
+.names ys__n23 ys__n24 ys__n25
+-1 1
+1- 1
+.names ys__n381 ys__n93 ys__n27
+01 1
+10 1
+.names ys__n25 ys__n21 ys__n28
+-1 1
+1- 1
+.names ys__n47 ys__n29
+0 1
+.names ys__n8 ys__n30
+0 1
+.names ys__n29 ys__n30 ys__n31
+-1 1
+1- 1
+.names ys__n10 ys__n32
+0 1
+.names ys__n31 ys__n32 ys__n33
+-1 1
+1- 1
+.names ys__n390 ys__n232 ys__n34
+01 1
+10 1
+.names ys__n391 ys__n315 ys__n35
+01 1
+10 1
+.names ys__n34 ys__n35 ys__n36
+-1 1
+1- 1
+.names ys__n337 ys__n232 ys__n37
+01 1
+10 1
+.names ys__n339 ys__n315 ys__n38
+01 1
+10 1
+.names ys__n37 ys__n38 ys__n39
+-1 1
+1- 1
+.names ys__n394 ys__n255 ys__n40
+01 1
+10 1
+.names ys__n395 ys__n190 ys__n41
+01 1
+10 1
+.names ys__n40 ys__n41 ys__n42
+-1 1
+1- 1
+.names ys__n333 ys__n255 ys__n43
+01 1
+10 1
+.names ys__n335 ys__n190 ys__n44
+01 1
+10 1
+.names ys__n43 ys__n44 ys__n45
+-1 1
+1- 1
+.names ys__n6 ys__n46 ys__n47
+-1 1
+1- 1
+.names ys__n48 ys__n49
+0 1
+.names ys__n50 ys__n51
+0 1
+.names ys__n52 ys__n53
+0 1
+.names ys__n54 ys__n55
+0 1
+.names ys__n28 ys__n56
+0 1
+.names ys__n57 ys__n58
+0 1
+.names ys__n70 ys__n68 ys__n59
+11 1
+.names ys__n59 ys__n60
+0 1
+.names ys__n61 ys__n62
+0 1
+.names ys__n36 ys__n63
+0 1
+.names ys__n64 ys__n65
+0 1
+.names ys__n39 ys__n66
+0 1
+.names ys__n42 ys__n67
+0 1
+.names ys__n68 ys__n69
+0 1
+.names ys__n45 ys__n70
+0 1
+.names ys__n71 ys__n72 ys__n73 ys__n74
+1-0 1
+-11 1
+.names ys__n377 ys__n330 ys__n75
+01 1
+10 1
+.names ys__n74 ys__n75 ys__n76
+-1 1
+1- 1
+.names ys__n77 ys__n72 ys__n0 ys__n78
+1-0 1
+-11 1
+.names ys__n79 ys__n72 ys__n0 ys__n80
+1-0 1
+-11 1
+.names ys__n81 ys__n72 ys__n0 ys__n82
+1-0 1
+-11 1
+.names ys__n83 ys__n72 ys__n0 ys__n84
+1-0 1
+-11 1
+.names ys__n85 ys__n72 ys__n3 ys__n86
+1-0 1
+-11 1
+.names ys__n87 ys__n72 ys__n3 ys__n88
+1-0 1
+-11 1
+.names ys__n89 ys__n72 ys__n3 ys__n90
+1-0 1
+-11 1
+.names ys__n91 ys__n72 ys__n3 ys__n92
+1-0 1
+-11 1
+.names ys__n50 ys__n372 ys__n95
+-1 1
+1- 1
+.names ys__n93 ys__n94 ys__n95 ys__n96
+1-0 1
+-11 1
+.names ys__n97 ys__n4 ys__n98
+-1 1
+1- 1
+.names ys__n300 ys__n233 ys__n315 ys__n100
+1-0 1
+-11 1
+.names ys__n99 ys__n100 ys__n3 ys__n101
+1-0 1
+-11 1
+.names ys__n302 ys__n236 ys__n315 ys__n103
+1-0 1
+-11 1
+.names ys__n102 ys__n103 ys__n3 ys__n104
+1-0 1
+-11 1
+.names ys__n304 ys__n239 ys__n315 ys__n106
+1-0 1
+-11 1
+.names ys__n105 ys__n106 ys__n3 ys__n107
+1-0 1
+-11 1
+.names ys__n306 ys__n242 ys__n315 ys__n109
+1-0 1
+-11 1
+.names ys__n108 ys__n109 ys__n3 ys__n110
+1-0 1
+-11 1
+.names ys__n308 ys__n245 ys__n315 ys__n112
+1-0 1
+-11 1
+.names ys__n111 ys__n112 ys__n3 ys__n113
+1-0 1
+-11 1
+.names ys__n310 ys__n248 ys__n315 ys__n115
+1-0 1
+-11 1
+.names ys__n114 ys__n115 ys__n3 ys__n116
+1-0 1
+-11 1
+.names ys__n312 ys__n251 ys__n315 ys__n118
+1-0 1
+-11 1
+.names ys__n117 ys__n118 ys__n3 ys__n119
+1-0 1
+-11 1
+.names ys__n314 ys__n254 ys__n315 ys__n120
+1-0 1
+-11 1
+.names ys__n97 ys__n120 ys__n3 ys__n121
+1-0 1
+-11 1
+.names ys__n68 ys__n72 ys__n122 ys__n123
+1-0 1
+-11 1
+.names ys__n67 ys__n375 ys__n124
+11 1
+.names ys__n123 ys__n124 ys__n125
+-1 1
+1- 1
+.names ys__n64 ys__n72 ys__n3 ys__n126
+1-0 1
+-11 1
+.names ys__n63 ys__n388 ys__n127
+11 1
+.names ys__n126 ys__n127 ys__n128
+-1 1
+1- 1
+.names ys__n384 ys__n375 ys__n131
+11 1
+.names ys__n129 ys__n130 ys__n131 ys__n132
+1-0 1
+-11 1
+.names ys__n133 ys__n134 ys__n131 ys__n135
+1-0 1
+-11 1
+.names ys__n136 ys__n137 ys__n131 ys__n138
+1-0 1
+-11 1
+.names ys__n139 ys__n140 ys__n131 ys__n141
+1-0 1
+-11 1
+.names ys__n142 ys__n143 ys__n131 ys__n144
+1-0 1
+-11 1
+.names ys__n145 ys__n146 ys__n131 ys__n147
+1-0 1
+-11 1
+.names ys__n148 ys__n149 ys__n131 ys__n150
+1-0 1
+-11 1
+.names ys__n151 ys__n152 ys__n131 ys__n153
+1-0 1
+-11 1
+.names ys__n374 ys__n375 ys__n155
+11 1
+.names ys__n154 ys__n130 ys__n155 ys__n156
+1-0 1
+-11 1
+.names ys__n157 ys__n134 ys__n155 ys__n158
+1-0 1
+-11 1
+.names ys__n159 ys__n137 ys__n155 ys__n160
+1-0 1
+-11 1
+.names ys__n161 ys__n140 ys__n155 ys__n162
+1-0 1
+-11 1
+.names ys__n163 ys__n143 ys__n155 ys__n164
+1-0 1
+-11 1
+.names ys__n165 ys__n146 ys__n155 ys__n166
+1-0 1
+-11 1
+.names ys__n167 ys__n149 ys__n155 ys__n168
+1-0 1
+-11 1
+.names ys__n169 ys__n152 ys__n155 ys__n170
+1-0 1
+-11 1
+.names ys__n379 ys__n375 ys__n172
+11 1
+.names ys__n171 ys__n130 ys__n172 ys__n173
+1-0 1
+-11 1
+.names ys__n174 ys__n134 ys__n172 ys__n175
+1-0 1
+-11 1
+.names ys__n176 ys__n137 ys__n172 ys__n177
+1-0 1
+-11 1
+.names ys__n178 ys__n140 ys__n172 ys__n179
+1-0 1
+-11 1
+.names ys__n180 ys__n143 ys__n172 ys__n181
+1-0 1
+-11 1
+.names ys__n182 ys__n146 ys__n172 ys__n183
+1-0 1
+-11 1
+.names ys__n184 ys__n149 ys__n172 ys__n185
+1-0 1
+-11 1
+.names ys__n186 ys__n152 ys__n172 ys__n187
+1-0 1
+-11 1
+.names ys__n129 ys__n213 ys__n255 ys__n188
+1-0 1
+-11 1
+.names ys__n171 ys__n154 ys__n255 ys__n189
+1-0 1
+-11 1
+.names ys__n188 ys__n189 ys__n190 ys__n191
+1-0 1
+-11 1
+.names ys__n133 ys__n216 ys__n255 ys__n192
+1-0 1
+-11 1
+.names ys__n174 ys__n157 ys__n255 ys__n193
+1-0 1
+-11 1
+.names ys__n192 ys__n193 ys__n190 ys__n194
+1-0 1
+-11 1
+.names ys__n136 ys__n218 ys__n255 ys__n195
+1-0 1
+-11 1
+.names ys__n176 ys__n159 ys__n255 ys__n196
+1-0 1
+-11 1
+.names ys__n195 ys__n196 ys__n190 ys__n197
+1-0 1
+-11 1
+.names ys__n139 ys__n220 ys__n255 ys__n198
+1-0 1
+-11 1
+.names ys__n178 ys__n161 ys__n255 ys__n199
+1-0 1
+-11 1
+.names ys__n198 ys__n199 ys__n190 ys__n200
+1-0 1
+-11 1
+.names ys__n142 ys__n222 ys__n255 ys__n201
+1-0 1
+-11 1
+.names ys__n180 ys__n163 ys__n255 ys__n202
+1-0 1
+-11 1
+.names ys__n201 ys__n202 ys__n190 ys__n203
+1-0 1
+-11 1
+.names ys__n145 ys__n224 ys__n255 ys__n204
+1-0 1
+-11 1
+.names ys__n182 ys__n165 ys__n255 ys__n205
+1-0 1
+-11 1
+.names ys__n204 ys__n205 ys__n190 ys__n206
+1-0 1
+-11 1
+.names ys__n148 ys__n226 ys__n255 ys__n207
+1-0 1
+-11 1
+.names ys__n184 ys__n167 ys__n255 ys__n208
+1-0 1
+-11 1
+.names ys__n207 ys__n208 ys__n190 ys__n209
+1-0 1
+-11 1
+.names ys__n151 ys__n228 ys__n255 ys__n210
+1-0 1
+-11 1
+.names ys__n186 ys__n169 ys__n255 ys__n211
+1-0 1
+-11 1
+.names ys__n210 ys__n211 ys__n190 ys__n212
+1-0 1
+-11 1
+.names ys__n366 ys__n375 ys__n214
+11 1
+.names ys__n213 ys__n130 ys__n214 ys__n215
+1-0 1
+-11 1
+.names ys__n216 ys__n134 ys__n214 ys__n217
+1-0 1
+-11 1
+.names ys__n218 ys__n137 ys__n214 ys__n219
+1-0 1
+-11 1
+.names ys__n220 ys__n140 ys__n214 ys__n221
+1-0 1
+-11 1
+.names ys__n222 ys__n143 ys__n214 ys__n223
+1-0 1
+-11 1
+.names ys__n224 ys__n146 ys__n214 ys__n225
+1-0 1
+-11 1
+.names ys__n226 ys__n149 ys__n214 ys__n227
+1-0 1
+-11 1
+.names ys__n228 ys__n152 ys__n214 ys__n229
+1-0 1
+-11 1
+.names ys__n230 ys__n231 ys__n232 ys__n233
+1-0 1
+-11 1
+.names ys__n234 ys__n235 ys__n232 ys__n236
+1-0 1
+-11 1
+.names ys__n237 ys__n238 ys__n232 ys__n239
+1-0 1
+-11 1
+.names ys__n240 ys__n241 ys__n232 ys__n242
+1-0 1
+-11 1
+.names ys__n243 ys__n244 ys__n232 ys__n245
+1-0 1
+-11 1
+.names ys__n246 ys__n247 ys__n232 ys__n248
+1-0 1
+-11 1
+.names ys__n249 ys__n250 ys__n232 ys__n251
+1-0 1
+-11 1
+.names ys__n252 ys__n253 ys__n232 ys__n254
+1-0 1
+-11 1
+.names ys__n387 ys__n388 ys__n257
+11 1
+.names ys__n231 ys__n256 ys__n257 ys__n258
+1-0 1
+-11 1
+.names ys__n235 ys__n259 ys__n257 ys__n260
+1-0 1
+-11 1
+.names ys__n238 ys__n261 ys__n257 ys__n262
+1-0 1
+-11 1
+.names ys__n241 ys__n263 ys__n257 ys__n264
+1-0 1
+-11 1
+.names ys__n244 ys__n265 ys__n257 ys__n266
+1-0 1
+-11 1
+.names ys__n247 ys__n267 ys__n257 ys__n268
+1-0 1
+-11 1
+.names ys__n250 ys__n269 ys__n257 ys__n270
+1-0 1
+-11 1
+.names ys__n253 ys__n271 ys__n257 ys__n272
+1-0 1
+-11 1
+.names ys__n389 ys__n388 ys__n273
+11 1
+.names ys__n230 ys__n256 ys__n273 ys__n274
+1-0 1
+-11 1
+.names ys__n234 ys__n259 ys__n273 ys__n275
+1-0 1
+-11 1
+.names ys__n237 ys__n261 ys__n273 ys__n276
+1-0 1
+-11 1
+.names ys__n240 ys__n263 ys__n273 ys__n277
+1-0 1
+-11 1
+.names ys__n243 ys__n265 ys__n273 ys__n278
+1-0 1
+-11 1
+.names ys__n246 ys__n267 ys__n273 ys__n279
+1-0 1
+-11 1
+.names ys__n249 ys__n269 ys__n273 ys__n280
+1-0 1
+-11 1
+.names ys__n252 ys__n271 ys__n273 ys__n281
+1-0 1
+-11 1
+.names ys__n376 ys__n388 ys__n283
+11 1
+.names ys__n282 ys__n256 ys__n283 ys__n284
+1-0 1
+-11 1
+.names ys__n285 ys__n259 ys__n283 ys__n286
+1-0 1
+-11 1
+.names ys__n287 ys__n261 ys__n283 ys__n288
+1-0 1
+-11 1
+.names ys__n289 ys__n263 ys__n283 ys__n290
+1-0 1
+-11 1
+.names ys__n291 ys__n265 ys__n283 ys__n292
+1-0 1
+-11 1
+.names ys__n293 ys__n267 ys__n283 ys__n294
+1-0 1
+-11 1
+.names ys__n295 ys__n269 ys__n283 ys__n296
+1-0 1
+-11 1
+.names ys__n297 ys__n271 ys__n283 ys__n298
+1-0 1
+-11 1
+.names ys__n299 ys__n282 ys__n232 ys__n300
+1-0 1
+-11 1
+.names ys__n301 ys__n285 ys__n232 ys__n302
+1-0 1
+-11 1
+.names ys__n303 ys__n287 ys__n232 ys__n304
+1-0 1
+-11 1
+.names ys__n305 ys__n289 ys__n232 ys__n306
+1-0 1
+-11 1
+.names ys__n307 ys__n291 ys__n232 ys__n308
+1-0 1
+-11 1
+.names ys__n309 ys__n293 ys__n232 ys__n310
+1-0 1
+-11 1
+.names ys__n311 ys__n295 ys__n232 ys__n312
+1-0 1
+-11 1
+.names ys__n313 ys__n297 ys__n232 ys__n314
+1-0 1
+-11 1
+.names ys__n371 ys__n388 ys__n316
+11 1
+.names ys__n299 ys__n256 ys__n316 ys__n317
+1-0 1
+-11 1
+.names ys__n301 ys__n259 ys__n316 ys__n318
+1-0 1
+-11 1
+.names ys__n303 ys__n261 ys__n316 ys__n319
+1-0 1
+-11 1
+.names ys__n305 ys__n263 ys__n316 ys__n320
+1-0 1
+-11 1
+.names ys__n307 ys__n265 ys__n316 ys__n321
+1-0 1
+-11 1
+.names ys__n309 ys__n267 ys__n316 ys__n322
+1-0 1
+-11 1
+.names ys__n311 ys__n269 ys__n316 ys__n323
+1-0 1
+-11 1
+.names ys__n313 ys__n271 ys__n316 ys__n324
+1-0 1
+-11 1
+.names ys__n71 ys__n325
+0 1
+.names ys__n325 ys__n72 ys__n6 ys__n326
+1-0 1
+-11 1
+.names ys__n325 ys__n71 ys__n6 ys__n327
+1-0 1
+-11 1
+.names ys__n327 ys__n326 ys__n46 ys__n328
+1-0 1
+-11 1
+.names ys__n6 ys__n326 ys__n46 ys__n329
+1-0 1
+-11 1
+.names ys__n330 ys__n331
+0 1
+.names ys__n33 ys__n332
+0 1
+.names ys__n333 ys__n334
+0 1
+.names ys__n335 ys__n336
+0 1
+.names ys__n337 ys__n338
+0 1
+.names ys__n339 ys__n340
+0 1
+.names ys__n341 ys__n342
+0 1
+.names ys__n341 ys__n343
+0 1
+.names ys__n341 ys__n344
+0 1
+.names ys__n341 ys__n345
+0 1
+.names ys__n341 ys__n346
+0 1
+.names ys__n341 ys__n347
+0 1
+.names ys__n341 ys__n348
+0 1
+.names ys__n341 ys__n349
+0 1
+.names ys__n341 ys__n350
+0 1
+.names ys__n341 ys__n351
+0 1
+.names ys__n341 ys__n352
+0 1
+.names ys__n341 ys__n353
+0 1
+.names ys__n341 ys__n354
+0 1
+.names ys__n341 ys__n355
+0 1
+.names ys__n341 ys__n356
+0 1
+.names ys__n341 ys__n357
+0 1
+.names ys__n341 ys__n358
+0 1
+.names ys__n341 ys__n359
+0 1
+.names ys__n341 ys__n360
+0 1
+.names ys__n341 ys__n361
+0 1
+.names ys__n341 ys__n362
+0 1
+.names ys__n341 ys__n363
+0 1
+.names ys__n341 ys__n364
+0 1
+.names ys__n341 ys__n365
+0 1
+.names ys__n333 ys__n336 ys__n366
+11 1
+.names ys__n49 ys__n51 ys__n367
+11 1
+.names ys__n367 ys__n53 ys__n368
+11 1
+.names ys__n338 ys__n340 ys__n371
+11 1
+.names ys__n335 ys__n333 ys__n374
+11 1
+.names ys__n383 ys__n60 ys__n375
+11 1
+.names ys__n337 ys__n340 ys__n376
+11 1
+.names ys__n377 ys__n331 ys__n378
+11 1
+.names ys__n334 ys__n335 ys__n379
+11 1
+.names ys__n58 ys__n382 ys__n383
+11 1
+.names ys__n334 ys__n336 ys__n384
+11 1
+.names ys__n385 ys__n62 ys__n386
+11 1
+.names ys__n339 ys__n337 ys__n387
+11 1
+.names ys__n338 ys__n339 ys__n389
+11 1
+.names ys__n93 ys__n337 ys__n390
+01 1
+10 1
+.names ys__n339 ys__n337 ys__n391
+01 1
+10 1
+.names ys__n66 ys__n64 ys__n392
+11 1
+.names ys__n66 ys__n65 ys__n393
+11 1
+.names ys__n93 ys__n333 ys__n394
+01 1
+10 1
+.names ys__n335 ys__n333 ys__n395
+01 1
+10 1
+.names ys__n70 ys__n69 ys__n396
+11 1
+.names ys__n315 ys__n232 ys__n398
+01 1
+10 1
+.names ys__n93 ys__n232 ys__n399
+01 1
+10 1
+.names ys__n190 ys__n255 ys__n400
+01 1
+10 1
+.names ys__n93 ys__n255 ys__n401
+01 1
+10 1
+.end

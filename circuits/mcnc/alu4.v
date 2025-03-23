@@ -1,0 +1,127 @@
+module alu4 (
+	a, b, c, d, e, f, g, h, 
+	i, j, k, l, m, n, o, p, q, r, 
+	s, t, u, v);
+
+input a, b, c, d, e, f, g, h, i, j, k, l, m, n;
+
+output o, p, q, r, s, t, u, v;
+
+wire m0, n0, o0, p0, q0, r0, s0, t0, u0, v0, w0, x0, y0, z0, a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, x1, y1, z1, a2, b2, c2, d2, e2, f2, g2, h2, i2, j2, k2, l2, m2, n2, o2, p2, q2, r2, s2, t2, u2, v2, w2, x2, y2, z2, a3, b3, c3, d3, e3, f3, g3, h3, i3, j3, k3, l3, m3, n3, o3, p3, q3, r3, s3, t3, u3, v3, w3, x3, y3, z3, a4, b4, c4, d4, e4, f4, g4, h4, i4, j4, k4, l4;
+
+assign o = ( j1 ) | ( n  &  g3  &  m ) | ( n  &  (~ g3)  &  (~ m) ) | ( (~ n)  &  k1  &  h3 ) | ( (~ n)  &  m1  &  i3  &  e ) | ( (~ n)  &  e  &  j  &  p1 ) | ( (~ n)  &  j  &  j3  &  q1 ) | ( (~ n)  &  j  &  n1  &  k3 ) | ( (~ n)  &  j  &  o1  &  l3 ) | ( (~ n)  &  (~ i3)  &  (~ j)  &  s1 ) | ( (~ n)  &  i3  &  (~ j)  &  r1 ) | ( (~ n)  &  (~ e)  &  (~ j)  &  u1 ) | ( (~ n)  &  (~ j)  &  l  &  m3 ) | ( (~ n)  &  (~ j)  &  t1  &  n3 ) ;
+ assign p = ( j1 ) | ( n  &  k2  &  l2 ) | ( n  &  (~ k2)  &  (~ l2) ) | ( (~ n)  &  m1  &  m2  &  f ) | ( (~ n)  &  k1  &  b  &  l ) | ( (~ n)  &  (~ m2)  &  (~ j)  &  s1 ) | ( (~ n)  &  m2  &  (~ j)  &  r1 ) | ( (~ n)  &  (~ f)  &  (~ j)  &  u1 ) | ( (~ n)  &  (~ j)  &  l  &  n2 ) | ( (~ n)  &  (~ j)  &  t1  &  o2 ) | ( (~ n)  &  f  &  j  &  p1 ) | ( (~ n)  &  j  &  q1  &  p2 ) | ( (~ n)  &  j  &  n1  &  q2 ) | ( (~ n)  &  m2  &  b  &  j  &  o1 ) ;
+ assign q = ( j1 ) | ( n  &  v1  &  w1 ) | ( n  &  (~ v1)  &  (~ w1) ) | ( (~ n)  &  k1  &  x1 ) | ( (~ n)  &  m1  &  y1  &  g ) | ( (~ n)  &  x1  &  (~ g)  &  (~ j) ) | ( (~ n)  &  j  &  n1  &  a2 ) | ( (~ n)  &  g  &  j  &  p1 ) | ( (~ n)  &  j  &  (~ z1)  &  q1 ) | ( (~ n)  &  y1  &  (~ j)  &  r1 ) | ( (~ n)  &  (~ y1)  &  (~ j)  &  s1 ) | ( (~ n)  &  (~ g)  &  (~ j)  &  u1 ) | ( (~ n)  &  y1  &  j  &  o1  &  c ) | ( (~ n)  &  g  &  (~ j)  &  (~ c)  &  t1 ) ;
+ assign r = ( j1 ) | ( n  &  m0  &  p0 ) | ( n  &  (~ m0)  &  (~ p0) ) | ( (~ n)  &  k1  &  l1 ) | ( (~ n)  &  m1  &  h1  &  h ) | ( (~ n)  &  l1  &  (~ h)  &  (~ j) ) | ( (~ n)  &  h  &  j  &  p1 ) | ( (~ n)  &  j  &  o1  &  b1 ) | ( (~ n)  &  j  &  q1  &  d1 ) | ( (~ n)  &  j  &  n1  &  t ) | ( (~ n)  &  h1  &  (~ j)  &  r1 ) | ( (~ n)  &  (~ h1)  &  (~ j)  &  s1 ) | ( (~ n)  &  (~ h)  &  (~ j)  &  u1 ) | ( (~ n)  &  h  &  (~ j)  &  t1  &  (~ d) ) ;
+ assign s = ( t ) | ( d1 ) ;
+ assign t = ( d  &  h ) ;
+ assign u = ( n  &  n0  &  o0 ) | ( n  &  (~ m0)  &  p0 ) | ( n  &  o0  &  (~ l) ) | ( n  &  l  &  w0  &  t ) | ( n  &  l  &  b1  &  f1 ) | ( n  &  (~ l)  &  q0  &  (~ t0)  &  u0 ) | ( n  &  n0  &  (~ l)  &  r0  &  k ) | ( n  &  l  &  v0  &  y0  &  (~ d) ) | ( n  &  l  &  t0  &  x0  &  z0 ) | ( n  &  l  &  t0  &  x0  &  a1 ) | ( n  &  l  &  x0  &  z0  &  a1 ) | ( n  &  l  &  (~ q0)  &  k  &  b1 ) | ( n  &  l  &  w0  &  (~ d1)  &  e1 ) | ( n  &  l  &  d  &  c1  &  f1 ) | ( n  &  l  &  c1  &  f1  &  h1 ) | ( n  &  (~ l)  &  s0  &  t0  &  (~ i)  &  d ) | ( n  &  l  &  (~ q0)  &  k  &  d  &  c1 ) | ( n  &  (~ l)  &  s0  &  t0  &  (~ i)  &  g1 ) | ( n  &  (~ l)  &  s0  &  (~ i)  &  d  &  g1 ) | ( n  &  (~ l)  &  s0  &  i  &  z0  &  h1 ) | ( n  &  l  &  (~ q0)  &  k  &  c1  &  h1 ) | ( n  &  (~ l)  &  s0  &  i  &  z0  &  i1 ) | ( n  &  (~ l)  &  s0  &  i  &  h1  &  i1 ) ;
+ assign v = ( s  &  a2  &  j3  &  q2 ) | ( s  &  a2  &  q2  &  k3 ) | ( s  &  a2  &  k3  &  p2 ) | ( s  &  j3  &  q2  &  (~ z1) ) | ( s  &  q2  &  k3  &  (~ z1) ) | ( s  &  k3  &  p2  &  (~ z1) ) | ( s  &  (~ e)  &  (~ f)  &  a2  &  d3 ) | ( s  &  (~ e)  &  (~ f)  &  y0  &  (~ g) ) ;
+ assign m0 = ( v1 ) | ( (~ w1) ) ;
+ assign n0 = ( (~ h1)  &  e2 ) ;
+ assign o0 = ( (~ k)  &  q0 ) ;
+ assign p0 = ( n  &  b2  &  n0 ) | ( n  &  d  &  j2 ) | ( n  &  c2  &  h1  &  (~ e2) ) | ( n  &  v0  &  l1  &  (~ y0) ) | ( n  &  x0  &  h1  &  (~ l) ) | ( n  &  (~ d)  &  f2  &  g2 ) | ( n  &  w0  &  (~ l)  &  h ) | ( n  &  d  &  (~ f2)  &  i2 ) | ( n  &  w0  &  e1  &  t ) | ( n  &  v0  &  y0  &  (~ d)  &  l ) | ( n  &  w0  &  (~ d)  &  (~ e1)  &  h ) | ( n  &  w0  &  d  &  (~ e1)  &  (~ h) ) | ( n  &  v0  &  (~ l)  &  (~ t0)  &  u0 ) | ( n  &  v0  &  (~ l)  &  t0  &  (~ u0) ) | ( n  &  d2  &  i  &  (~ h2)  &  i1 ) | ( n  &  d2  &  i  &  h2  &  (~ i1) ) | ( n  &  w0  &  l  &  e1  &  d1 ) | ( n  &  x0  &  l  &  z0  &  t0  &  a1 ) | ( n  &  x0  &  l  &  (~ z0)  &  (~ t0)  &  a1 ) | ( n  &  x0  &  l  &  (~ z0)  &  t0  &  (~ a1) ) | ( n  &  x0  &  l  &  z0  &  (~ t0)  &  (~ a1) ) | ( n  &  d2  &  (~ d)  &  (~ i)  &  (~ t0)  &  g1 ) | ( n  &  d2  &  (~ d)  &  (~ i)  &  t0  &  (~ g1) ) | ( n  &  d  &  (~ l)  &  t0  &  g1  &  f1 ) | ( n  &  d  &  (~ l)  &  (~ t0)  &  (~ g1)  &  f1 ) ;
+ assign q0 = ( i  &  j ) ;
+ assign r0 = ( (~ i)  &  j ) ;
+ assign s0 = ( (~ j)  &  k ) ;
+ assign t0 = ( c4  &  h1 ) | ( c4  &  d ) | ( b4  &  (~ h1)  &  f1 ) | ( b4  &  b1  &  q0 ) | ( b4  &  t  &  v3 ) ;
+ assign u0 = ( e3  &  (~ v2) ) ;
+ assign v0 = ( k  &  q0 ) ;
+ assign w0 = ( (~ j)  &  x2 ) ;
+ assign x0 = ( j  &  m1 ) ;
+ assign y0 = ( (~ c)  &  d3 ) ;
+ assign z0 = ( (~ t0)  &  z3 ) | ( y3  &  t ) ;
+ assign a1 = ( v2  &  u2 ) | ( v2  &  w2 ) | ( u2  &  w2 ) ;
+ assign b1 = ( d  &  h1 ) ;
+ assign c1 = ( y1  &  b3 ) | ( y1  &  c ) | ( b3  &  c ) ;
+ assign d1 = ( (~ d)  &  (~ h) ) ;
+ assign e1 = ( a2 ) | ( t2  &  z1 ) ;
+ assign f1 = ( (~ i)  &  (~ j) ) ;
+ assign g1 = ( v2  &  x3 ) | ( v2  &  c ) | ( x3  &  c ) ;
+ assign h1 = ( (~ d1)  &  e4 ) | ( d4  &  (~ h) ) | ( t  &  n  &  d2 ) | ( t  &  (~ i)  &  d2 ) | ( t  &  n  &  f4 ) | ( n  &  (~ i)  &  x1  &  s0 ) | ( t  &  n  &  (~ i)  &  (~ g4)  &  u3 ) | ( d1  &  n  &  (~ i)  &  (~ g4)  &  j ) | ( (~ n)  &  (~ i)  &  (~ d)  &  (~ k)  &  (~ j) ) | ( (~ n)  &  (~ i)  &  (~ d)  &  (~ k)  &  (~ l) ) | ( (~ h)  &  n  &  (~ i)  &  d  &  g4  &  j ) | ( h  &  n  &  (~ i)  &  (~ d)  &  g4  &  u3  &  j ) ;
+ assign i1 = ( y1  &  u2 ) | ( y1  &  z2 ) | ( u2  &  z2 ) ;
+ assign j1 = ( (~ n)  &  p1  &  s0 ) | ( n  &  l4  &  q0 ) ;
+ assign k1 = ( k ) | ( f1 ) ;
+ assign l1 = ( d  &  l ) ;
+ assign m1 = ( (~ i)  &  (~ k) ) ;
+ assign n1 = ( l ) | ( c3 ) ;
+ assign o1 = ( i  &  k ) ;
+ assign p1 = ( (~ i)  &  l ) ;
+ assign q1 = ( (~ i)  &  u3 ) ;
+ assign r1 = ( m1 ) | ( k  &  l ) ;
+ assign s1 = ( c3 ) | ( i  &  l4 ) ;
+ assign t1 = ( l  &  x2 ) ;
+ assign u1 = ( i  &  u3 ) ;
+ assign v1 = ( k2 ) | ( (~ l2) ) ;
+ assign w1 = ( n  &  b2  &  e2 ) | ( n  &  c  &  j2 ) | ( n  &  r2  &  x2  &  g ) | ( n  &  v0  &  x1  &  (~ d3) ) | ( n  &  v0  &  y0  &  l ) | ( n  &  v0  &  (~ l)  &  u0 ) | ( n  &  y1  &  (~ l)  &  x0 ) | ( n  &  y1  &  c2  &  (~ f3) ) | ( n  &  w0  &  t2  &  a2 ) | ( n  &  s2  &  u2  &  v2  &  w2 ) | ( n  &  s2  &  (~ u2)  &  (~ v2)  &  w2 ) | ( n  &  s2  &  (~ u2)  &  v2  &  (~ w2) ) | ( n  &  s2  &  u2  &  (~ v2)  &  (~ w2) ) | ( n  &  w0  &  (~ t2)  &  (~ c)  &  g ) | ( n  &  w0  &  (~ t2)  &  c  &  (~ g) ) | ( n  &  r2  &  o1  &  y2  &  z2 ) | ( n  &  r2  &  o1  &  (~ y2)  &  (~ z2) ) | ( n  &  r2  &  c  &  (~ a3)  &  (~ i) ) | ( n  &  y1  &  c  &  i2  &  b3 ) | ( n  &  (~ y1)  &  c  &  i2  &  (~ b3) ) | ( n  &  (~ y1)  &  (~ c)  &  b3  &  g2 ) | ( n  &  y1  &  (~ c)  &  (~ b3)  &  g2 ) | ( n  &  r2  &  (~ c)  &  a3  &  c3 ) | ( n  &  v0  &  v2  &  (~ l)  &  (~ e3) ) | ( n  &  w0  &  t2  &  l  &  (~ z1) ) ;
+ assign x1 = ( c  &  l ) ;
+ assign y1 = ( h4  &  a2 ) | ( z1  &  e4 ) | ( i4  &  (~ c) ) | ( d4  &  (~ g) ) | ( n  &  (~ i)  &  s0  &  b  &  l ) | ( c  &  g  &  n  &  (~ i)  &  u3  &  j4 ) | ( (~ c)  &  (~ g)  &  n  &  (~ i)  &  j4  &  j ) | ( c  &  (~ g)  &  n  &  (~ i)  &  (~ j4)  &  j ) | ( (~ c)  &  g  &  n  &  (~ i)  &  u3  &  (~ j4)  &  j ) ;
+ assign z1 = ( c ) | ( g ) ;
+ assign a2 = ( c  &  g ) ;
+ assign b2 = ( j  &  q1 ) | ( l  &  o0 ) ;
+ assign c2 = ( (~ l)  &  r0 ) | ( l  &  o0 ) ;
+ assign d2 = ( (~ j)  &  u3 ) ;
+ assign e2 = ( f3  &  (~ y1) ) ;
+ assign f2 = ( (~ c1)  &  h1 ) | ( c1  &  (~ h1) ) ;
+ assign g2 = ( l  &  f1 ) | ( l  &  k  &  (~ q0) ) ;
+ assign h2 = ( (~ z0)  &  h1 ) | ( z0  &  (~ h1) ) ;
+ assign i2 = ( g2 ) | ( (~ k)  &  f1 ) ;
+ assign j2 = ( l4  &  (~ q0) ) ;
+ assign k2 = ( m ) | ( (~ g3) ) ;
+ assign l2 = ( n  &  b2  &  f3 ) | ( n  &  b  &  j2 ) | ( n  &  r2  &  x2  &  f ) | ( n  &  v0  &  d3  &  l ) | ( n  &  v0  &  (~ l)  &  e3 ) | ( n  &  v0  &  b  &  h3 ) | ( n  &  m2  &  (~ l)  &  x0 ) | ( n  &  m2  &  c2  &  i3 ) | ( n  &  w0  &  (~ k3)  &  o2 ) | ( n  &  w0  &  k3  &  q2 ) | ( n  &  g2  &  (~ m2)  &  l3  &  (~ b) ) | ( n  &  g2  &  m2  &  (~ l3)  &  (~ b) ) | ( n  &  r2  &  (~ b)  &  o3  &  c3 ) | ( n  &  r2  &  b  &  (~ o3)  &  (~ i) ) | ( n  &  v0  &  (~ l)  &  q3  &  r3 ) | ( n  &  s2  &  r3  &  s3  &  t3 ) | ( n  &  s2  &  (~ r3)  &  (~ s3)  &  t3 ) | ( n  &  s2  &  (~ r3)  &  s3  &  (~ t3) ) | ( n  &  s2  &  r3  &  (~ s3)  &  (~ t3) ) | ( n  &  m2  &  l3  &  b  &  i2 ) | ( n  &  (~ m2)  &  (~ l3)  &  b  &  i2 ) | ( n  &  w0  &  b  &  (~ f)  &  (~ k3) ) | ( n  &  w0  &  l  &  k3  &  p2 ) | ( n  &  r2  &  m2  &  o1  &  p3  &  s3 ) | ( n  &  r2  &  (~ m2)  &  o1  &  (~ p3)  &  s3 ) | ( n  &  r2  &  (~ m2)  &  o1  &  p3  &  (~ s3) ) | ( n  &  r2  &  m2  &  o1  &  (~ p3)  &  (~ s3) ) ;
+ assign m2 = ( (~ p2)  &  e4 ) | ( h4  &  q2 ) | ( i4  &  (~ b) ) | ( d4  &  (~ f) ) | ( n  &  (~ i)  &  s0  &  h3 ) | ( q2  &  n  &  (~ i)  &  u3  &  n3 ) | ( p2  &  n  &  (~ i)  &  n3  &  j ) | ( n  &  (~ i)  &  (~ n3)  &  j  &  n2 ) | ( n  &  (~ i)  &  u3  &  (~ n3)  &  j  &  o2 ) ;
+ assign n2 = ( b  &  (~ f) ) ;
+ assign o2 = ( (~ b)  &  f ) ;
+ assign p2 = ( (~ b)  &  (~ f) ) ;
+ assign q2 = ( b  &  f ) ;
+ assign r2 = ( (~ j)  &  (~ l) ) ;
+ assign s2 = ( (~ k)  &  j  &  p1 ) ;
+ assign t2 = ( q2 ) | ( k3  &  (~ p2) ) ;
+ assign u2 = ( (~ v2)  &  z3 ) | ( y3  &  a2 ) ;
+ assign v2 = ( c4  &  y1 ) | ( c4  &  c ) | ( b4  &  f1  &  (~ y1) ) | ( b4  &  y1  &  c  &  i  &  j ) | ( b4  &  c  &  i  &  g  &  (~ j) ) ;
+ assign w2 = ( r3  &  s3 ) | ( r3  &  t3 ) | ( s3  &  t3 ) ;
+ assign x2 = ( i  &  (~ k) ) ;
+ assign y2 = ( u2  &  y1 ) | ( (~ u2)  &  (~ y1) ) ;
+ assign z2 = ( m2  &  s3 ) | ( m2  &  p3 ) | ( s3  &  p3 ) ;
+ assign a3 = ( (~ x3)  &  v2 ) | ( x3  &  (~ v2) ) ;
+ assign b3 = ( m2  &  l3 ) | ( m2  &  b ) | ( l3  &  b ) ;
+ assign c3 = ( (~ i)  &  k ) ;
+ assign d3 = ( (~ a)  &  (~ b) ) ;
+ assign e3 = ( (~ r3)  &  (~ q3) ) ;
+ assign f3 = ( (~ m2)  &  (~ i3) ) ;
+ assign g3 = ( n  &  b2  &  (~ i3) ) | ( n  &  u3  &  q0  &  (~ q3) ) | ( n  &  m1  &  (~ l)  &  a ) | ( n  &  r2  &  x2  &  e ) | ( n  &  l  &  (~ a)  &  v0 ) | ( n  &  v3  &  (~ k)  &  m3 ) | ( n  &  v3  &  (~ k)  &  n3 ) | ( n  &  r2  &  (~ q3)  &  a  &  (~ i) ) | ( n  &  (~ q3)  &  l  &  x0  &  w3 ) | ( n  &  q3  &  l  &  x0  &  (~ w3) ) | ( n  &  i3  &  l  &  (~ a)  &  k1 ) | ( n  &  m1  &  i3  &  (~ l)  &  j ) | ( n  &  m1  &  (~ i3)  &  a  &  (~ j) ) | ( n  &  (~ q0)  &  (~ i3)  &  k  &  l  &  a ) | ( n  &  r2  &  q3  &  k  &  (~ a)  &  (~ i) ) | ( n  &  r2  &  (~ i3)  &  k  &  i  &  w3 ) | ( n  &  r2  &  i3  &  k  &  i  &  (~ w3) ) ;
+ assign h3 = ( a  &  l ) ;
+ assign i3 = ( (~ j3)  &  e4 ) | ( k4  &  k3 ) | ( i4  &  (~ a) ) | ( d4  &  (~ e) ) | ( r0  &  n  &  m3 ) | ( r0  &  n  &  u3  &  n3 ) ;
+ assign j3 = ( (~ a)  &  (~ e) ) ;
+ assign k3 = ( a  &  e ) ;
+ assign l3 = ( a  &  i3 ) ;
+ assign m3 = ( a  &  (~ e) ) ;
+ assign n3 = ( (~ a)  &  e ) ;
+ assign o3 = ( (~ r3)  &  a4 ) | ( r3  &  (~ a4) ) ;
+ assign p3 = ( w3  &  i3 ) ;
+ assign q3 = ( c4  &  i3 ) | ( c4  &  a ) | ( b4  &  (~ i3)  &  f1 ) | ( b4  &  l3  &  q0 ) | ( b4  &  k3  &  v3 ) ;
+ assign r3 = ( c4  &  m2 ) | ( c4  &  b ) | ( b4  &  f1  &  (~ m2) ) | ( b4  &  m2  &  b  &  i  &  j ) | ( b4  &  b  &  i  &  f  &  (~ j) ) ;
+ assign s3 = ( (~ r3)  &  z3 ) | ( y3  &  q2 ) ;
+ assign t3 = ( w3  &  q3 ) ;
+ assign u3 = ( k  &  (~ l) ) ;
+ assign v3 = ( i  &  (~ j) ) ;
+ assign w3 = ( (~ q3)  &  z3 ) | ( y3  &  k3 ) ;
+ assign x3 = ( r3  &  a4 ) | ( r3  &  b ) | ( a4  &  b ) ;
+ assign y3 = ( (~ k)  &  c4 ) ;
+ assign z3 = ( (~ j)  &  n  &  u1 ) ;
+ assign a4 = ( a  &  q3 ) ;
+ assign b4 = ( n  &  u3 ) ;
+ assign c4 = ( n  &  j  &  p1 ) ;
+ assign d4 = ( u3  &  q0 ) | ( n  &  (~ u3)  &  r0 ) | ( (~ j)  &  l  &  (~ n)  &  o1 ) ;
+ assign e4 = ( v3  &  k  &  n ) | ( v3  &  (~ n)  &  l4 ) ;
+ assign f4 = ( (~ k)  &  l  &  f1 ) | ( (~ k)  &  l  &  q0 ) ;
+ assign g4 = ( (~ j4)  &  c ) | ( (~ j4)  &  (~ g) ) | ( c  &  (~ g) ) ;
+ assign h4 = ( k4 ) | ( n  &  d2 ) ;
+ assign i4 = ( m1  &  (~ n)  &  (~ j) ) | ( m1  &  (~ n)  &  (~ l) ) ;
+ assign j4 = ( o2 ) | ( (~ n2)  &  n3 ) ;
+ assign k4 = ( n  &  f4 ) | ( (~ j)  &  q1 ) ;
+ assign l4 = ( (~ k)  &  (~ l) ) ;
+
+
+endmodule
+

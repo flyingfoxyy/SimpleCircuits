@@ -1,0 +1,1678 @@
+.model netlist
+.inputs ys__n1 ys__n21 ys__n23 ys__n25 ys__n26 ys__n28 ys__n29 ys__n31 ys__n32 ys__n34 ys__n35 ys__n37 ys__n38 ys__n40 ys__n41 ys__n48 ys__n49 ys__n51 ys__n53 ys__n54 ys__n72 ys__n73 ys__n76 ys__n81 ys__n85 ys__n88 ys__n91 ys__n94 ys__n111 ys__n114 ys__n117 ys__n121 ys__n125 ys__n128 ys__n131 ys__n134 ys__n137 ys__n140 ys__n142 ys__n143 ys__n146 ys__n149 ys__n152 ys__n159 ys__n162 ys__n167 ys__n170 ys__n175 ys__n180 ys__n183 ys__n188 ys__n192 ys__n197 ys__n198 ys__n201 ys__n202 ys__n204 ys__n205 ys__n207 ys__n208 ys__n210 ys__n211 ys__n213 ys__n214 ys__n216 ys__n217 ys__n219 ys__n220 ys__n222 ys__n223 ys__n226 ys__n227 ys__n229 ys__n230 ys__n232 ys__n233 ys__n235 ys__n236 ys__n238 ys__n239 ys__n241 ys__n242 ys__n244 ys__n245 ys__n247 ys__n250 ys__n252 ys__n254 ys__n256 ys__n258 ys__n260 ys__n262 ys__n264 ys__n267 ys__n269 ys__n271 ys__n273 ys__n275 ys__n277 ys__n279 ys__n281 ys__n283 ys__n285 ys__n287 ys__n304 ys__n307 ys__n309 ys__n311 ys__n313 ys__n315 ys__n317 ys__n319 ys__n337 ys__n340 ys__n342 ys__n344 ys__n346 ys__n348 ys__n350 ys__n352 ys__n378 ys__n381 ys__n383 ys__n385 ys__n387 ys__n389 ys__n391 ys__n393 ys__n395 ys__n396 ys__n397 ys__n398 ys__n399 ys__n400 ys__n401 ys__n402 ys__n418 ys__n421 ys__n423 ys__n425 ys__n427 ys__n431 ys__n434 ys__n440 ys__n442 ys__n444 ys__n446 ys__n447 ys__n471 ys__n481 ys__n530 ys__n531
+.outputs ys__n2 ys__n9 ys__n14 ys__n16 ys__n95 ys__n96 ys__n100 ys__n103 ys__n123 ys__n126 ys__n129 ys__n132 ys__n135 ys__n138 ys__n141 ys__n144 ys__n147 ys__n150 ys__n153 ys__n158 ys__n165 ys__n166 ys__n173 ys__n174 ys__n179 ys__n186 ys__n187 ys__n195 ys__n196 ys__n200 ys__n203 ys__n206 ys__n209 ys__n212 ys__n215 ys__n218 ys__n221 ys__n225 ys__n228 ys__n231 ys__n234 ys__n237 ys__n240 ys__n243 ys__n246 ys__n249 ys__n251 ys__n253 ys__n255 ys__n257 ys__n259 ys__n261 ys__n263 ys__n266 ys__n268 ys__n270 ys__n272 ys__n274 ys__n276 ys__n278 ys__n280 ys__n282 ys__n284 ys__n286 ys__n289 ys__n291 ys__n293 ys__n295 ys__n297 ys__n299 ys__n301 ys__n303 ys__n306 ys__n308 ys__n310 ys__n312 ys__n314 ys__n316 ys__n318 ys__n320 ys__n339 ys__n341 ys__n343 ys__n345 ys__n347 ys__n349 ys__n351 ys__n353 ys__n380 ys__n382 ys__n384 ys__n386 ys__n388 ys__n390 ys__n392 ys__n394 ys__n404 ys__n405 ys__n406 ys__n407 ys__n408 ys__n409 ys__n410 ys__n411 ys__n450 ys__n451 ys__n452 ys__n453 ys__n454 ys__n455 ys__n456 ys__n457 ys__n458 ys__n459 ys__n460 ys__n482 ys__n483 ys__n484 ys__n485 ys__n486 ys__n487 ys__n488 ys__n489 ys__n490 ys__n491 ys__n492 ys__n493 ys__n494 ys__n495 ys__n496 ys__n497 ys__n498 ys__n499 ys__n500 ys__n501 ys__n502 ys__n503 ys__n504 ys__n505 ys__n506 ys__n507 ys__n508 ys__n509 ys__n510 ys__n511 ys__n512 ys__n513 ys__n514 ys__n515 ys__n516 ys__n517 ys__n518 ys__n519 ys__n520 ys__n521 ys__n522 ys__n523 ys__n524 ys__n525 ys__n526 ys__n527 ys__n537 ys__n542 ys__n544 ys__n545 ys__n552 ys__n553 ys__n554 ys__n555 ys__n556 ys__n557 ys__n558 ys__n559 ys__n560 ys__n561 ys__n562 ys__n563 ys__n564
+# ys__n0     $auto$simplemap.cc:250:simplemap_eqne$1298 [0]
+# ys__n1     \rfwe
+# ys__n2     $auto$dff2dffe.cc:158:make_patterns_logic$1296
+# ys__n3     $auto$simplemap.cc:250:simplemap_eqne$1285 [0]
+# ys__n4     $auto$simplemap.cc:250:simplemap_eqne$1285 [1]
+# ys__n5     $auto$dff2dffe.cc:158:make_patterns_logic$1283
+# ys__n6     $auto$simplemap.cc:250:simplemap_eqne$1276 [0]
+# ys__n7     $auto$simplemap.cc:250:simplemap_eqne$1276 [1]
+# ys__n8     $auto$dff2dffe.cc:158:make_patterns_logic$1274
+# ys__n9     $auto$dff2dffe.cc:175:make_patterns_logic$1292
+# ys__n10    $auto$simplemap.cc:250:simplemap_eqne$1542 [0]
+# ys__n11    $auto$simplemap.cc:250:simplemap_eqne$1542 [1]
+# ys__n12    $auto$dff2dffe.cc:158:make_patterns_logic$1540
+# ys__n13    \wb_wr
+# ys__n14    $auto$dff2dffe.cc:175:make_patterns_logic$1549
+# ys__n15    $auto$dff2dffe.cc:158:make_patterns_logic$1692
+# ys__n16    $auto$dff2dffe.cc:175:make_patterns_logic$1701
+# ys__n17    $auto$simplemap.cc:250:simplemap_eqne$1694 [1]
+# ys__n18    $auto$simplemap.cc:250:simplemap_eqne$1902 [0]
+# ys__n19    $auto$simplemap.cc:250:simplemap_eqne$1902 [1]
+# ys__n20    $auto$simplemap.cc:256:simplemap_eqne$1906
+# ys__n21    $auto$iopadmap.cc:449:execute$2851 [0]
+# ys__n22    $auto$simplemap.cc:256:simplemap_eqne$1916
+# ys__n23    $auto$iopadmap.cc:449:execute$2851 [1]
+# ys__n24    $auto$simplemap.cc:256:simplemap_eqne$1934
+# ys__n25    \clkcnt [0]
+# ys__n26    \clkcnt [1]
+# ys__n27    $auto$simplemap.cc:127:simplemap_reduce$1959 [0]
+# ys__n28    \clkcnt [2]
+# ys__n29    \clkcnt [3]
+# ys__n30    $auto$simplemap.cc:127:simplemap_reduce$1959 [1]
+# ys__n31    \clkcnt [4]
+# ys__n32    \clkcnt [5]
+# ys__n33    $auto$simplemap.cc:127:simplemap_reduce$1959 [2]
+# ys__n34    \clkcnt [6]
+# ys__n35    \clkcnt [7]
+# ys__n36    $auto$simplemap.cc:127:simplemap_reduce$1959 [3]
+# ys__n37    \clkcnt [8]
+# ys__n38    \clkcnt [9]
+# ys__n39    $auto$simplemap.cc:127:simplemap_reduce$1959 [4]
+# ys__n40    \clkcnt [10]
+# ys__n41    \clkcnt [11]
+# ys__n42    $auto$simplemap.cc:127:simplemap_reduce$1959 [5]
+# ys__n43    $auto$simplemap.cc:127:simplemap_reduce$1966 [0]
+# ys__n44    $auto$simplemap.cc:127:simplemap_reduce$1966 [1]
+# ys__n45    $auto$simplemap.cc:127:simplemap_reduce$1966 [2]
+# ys__n46    $auto$simplemap.cc:127:simplemap_reduce$1970
+# ys__n47    $reduce_or$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$65_Y
+# ys__n48    \bcnt [0]
+# ys__n49    \bcnt [1]
+# ys__n50    $auto$simplemap.cc:127:simplemap_reduce$2024
+# ys__n51    \bcnt [2]
+# ys__n52    $auto$wreduce.cc:460:run$946 [0]
+# ys__n53    \tcnt [0]
+# ys__n54    \tcnt [1]
+# ys__n55    $procmux$774_CMP
+# ys__n56    $auto$simplemap.cc:250:simplemap_eqne$2077 [0]
+# ys__n57    $auto$simplemap.cc:250:simplemap_eqne$2077 [1]
+# ys__n58    $auto$simplemap.cc:256:simplemap_eqne$2081
+# ys__n59    $auto$simplemap.cc:250:simplemap_eqne$2184 [0]
+# ys__n60    $auto$simplemap.cc:250:simplemap_eqne$2184 [1]
+# ys__n61    $auto$simplemap.cc:256:simplemap_eqne$2188
+# ys__n62    $auto$simplemap.cc:250:simplemap_eqne$2197 [0]
+# ys__n63    $auto$simplemap.cc:250:simplemap_eqne$2197 [1]
+# ys__n64    $auto$simplemap.cc:256:simplemap_eqne$2201
+# ys__n65    $auto$simplemap.cc:250:simplemap_eqne$2246 [0]
+# ys__n66    $auto$simplemap.cc:250:simplemap_eqne$2246 [1]
+# ys__n67    $auto$simplemap.cc:256:simplemap_eqne$2250
+# ys__n68    $auto$simplemap.cc:250:simplemap_eqne$2259 [0]
+# ys__n69    $auto$simplemap.cc:250:simplemap_eqne$2259 [1]
+# ys__n70    $auto$simplemap.cc:256:simplemap_eqne$2263
+# ys__n71    $auto$simplemap.cc:168:logic_reduce$1898
+# ys__n72    \state [0]
+# ys__n73    \state [1]
+# ys__n74    $auto$simplemap.cc:168:logic_reduce$2087
+# ys__n75    $eq$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$31_Y
+# ys__n76    $auto$iopadmap.cc:449:execute$2852
+# ys__n77    $logic_not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$44_Y
+# ys__n78    $eq$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$46_Y
+# ys__n79    $logic_not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$86_Y
+# ys__n80    $techmap\rfifo.$eq$IWLS/opencores/rtl/simple_spi/fifo4.v:0$741_Y
+# ys__n81    \rfifo.gb
+# ys__n82    $techmap\rfifo.$logic_not$IWLS/opencores/rtl/simple_spi/fifo4.v:0$735_Y
+# ys__n83    $techmap\rfifo.$eq$IWLS/opencores/rtl/simple_spi/fifo4.v:0$734_Y
+# ys__n84    $techmap\wfifo.$eq$IWLS/opencores/rtl/simple_spi/fifo4.v:0$741_Y
+# ys__n85    \wfifo.gb
+# ys__n86    $techmap\wfifo.$logic_not$IWLS/opencores/rtl/simple_spi/fifo4.v:0$735_Y
+# ys__n87    $techmap\wfifo.$eq$IWLS/opencores/rtl/simple_spi/fifo4.v:0$734_Y
+# ys__n88    \sper [6]
+# ys__n89    $sub$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$84_Y [0]
+# ys__n90    $procmux$773_Y [0]
+# ys__n91    \sper [7]
+# ys__n92    $sub$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$84_Y [1]
+# ys__n93    $procmux$773_Y [1]
+# ys__n94    \spcr [6]
+# ys__n95    $0\tcnt[1:0] [0]
+# ys__n96    $0\tcnt[1:0] [1]
+# ys__n97    $procmux$782_Y
+# ys__n98    1'0
+# ys__n99    $procmux$784_Y
+# ys__n100   $procmux$786_Y
+# ys__n101   \wfempty
+# ys__n102   $procmux$794_Y
+# ys__n103   $procmux$796_Y
+# ys__n104   $procmux$815_Y [0]
+# ys__n105   $procmux$815_Y [1]
+# ys__n106   1'1
+# ys__n107   $procmux$818_Y [0]
+# ys__n108   $procmux$818_Y [1]
+# ys__n109   $procmux$821_Y [0]
+# ys__n110   $procmux$821_Y [1]
+# ys__n111   \spcr [3]
+# ys__n112   $not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$75_Y
+# ys__n113   $procmux$838_Y
+# ys__n114   $auto$iopadmap.cc:449:execute$2842
+# ys__n115   $procmux$840_Y
+# ys__n116   $procmux$844_Y
+# ys__n117   \spcr [2]
+# ys__n118   $procmux$847_Y
+# ys__n119   $procmux$849_Y
+# ys__n120   $auto$pmux2shiftx.cc:719:execute$952 [0]
+# ys__n121   $auto$alumacc.cc:485:replace_alu$956.O [0]
+# ys__n122   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$68_Y
+# ys__n123   $0\clkcnt[11:0] [0]
+# ys__n124   $auto$pmux2shiftx.cc:719:execute$952 [1]
+# ys__n125   $auto$alumacc.cc:485:replace_alu$956.O [1]
+# ys__n126   $0\clkcnt[11:0] [1]
+# ys__n127   $auto$pmux2shiftx.cc:719:execute$952 [2]
+# ys__n128   $auto$alumacc.cc:485:replace_alu$956.O [2]
+# ys__n129   $0\clkcnt[11:0] [2]
+# ys__n130   $auto$pmux2shiftx.cc:719:execute$952 [3]
+# ys__n131   $auto$alumacc.cc:485:replace_alu$956.O [3]
+# ys__n132   $0\clkcnt[11:0] [3]
+# ys__n133   $auto$pmux2shiftx.cc:719:execute$952 [4]
+# ys__n134   $auto$alumacc.cc:485:replace_alu$956.O [4]
+# ys__n135   $0\clkcnt[11:0] [4]
+# ys__n136   $auto$pmux2shiftx.cc:719:execute$952 [5]
+# ys__n137   $auto$alumacc.cc:485:replace_alu$956.O [5]
+# ys__n138   $0\clkcnt[11:0] [5]
+# ys__n139   $auto$pmux2shiftx.cc:719:execute$952 [6]
+# ys__n140   $auto$alumacc.cc:485:replace_alu$956.O [6]
+# ys__n141   $0\clkcnt[11:0] [6]
+# ys__n142   \sper [1]
+# ys__n143   $auto$alumacc.cc:485:replace_alu$956.O [7]
+# ys__n144   $0\clkcnt[11:0] [7]
+# ys__n145   $auto$pmux2shiftx.cc:719:execute$952 [8]
+# ys__n146   $auto$alumacc.cc:485:replace_alu$956.O [8]
+# ys__n147   $0\clkcnt[11:0] [8]
+# ys__n148   $auto$pmux2shiftx.cc:719:execute$952 [9]
+# ys__n149   $auto$alumacc.cc:485:replace_alu$956.O [9]
+# ys__n150   $0\clkcnt[11:0] [9]
+# ys__n151   $auto$pmux2shiftx.cc:719:execute$952 [10]
+# ys__n152   $auto$alumacc.cc:485:replace_alu$956.O [10]
+# ys__n153   $0\clkcnt[11:0] [10]
+# ys__n154   \rfifo.re
+# ys__n155   $techmap\rfifo.$procmux$890_Y
+# ys__n156   $techmap\rfifo.$and$IWLS/opencores/rtl/simple_spi/fifo4.v:0$742_Y
+# ys__n157   $techmap\rfifo.$procmux$893_Y
+# ys__n158   $techmap\rfifo.$procmux$896_Y
+# ys__n159   \rfifo.rp [0]
+# ys__n160   \rfifo.rp_p1 [0]
+# ys__n161   $techmap\rfifo.$procmux$907_Y [0]
+# ys__n162   \rfifo.rp [1]
+# ys__n163   \rfifo.rp_p1 [1]
+# ys__n164   $techmap\rfifo.$procmux$907_Y [1]
+# ys__n165   $techmap\rfifo.$0\rp[1:0] [0]
+# ys__n166   $techmap\rfifo.$0\rp[1:0] [1]
+# ys__n167   \rfifo.wp [0]
+# ys__n168   \rfifo.wp_p1 [0]
+# ys__n169   $techmap\rfifo.$procmux$912_Y [0]
+# ys__n170   \rfifo.wp [1]
+# ys__n171   \rfifo.wp_p1 [1]
+# ys__n172   $techmap\rfifo.$procmux$912_Y [1]
+# ys__n173   $techmap\rfifo.$0\wp[1:0] [0]
+# ys__n174   $techmap\rfifo.$0\wp[1:0] [1]
+# ys__n175   \wfre
+# ys__n176   $techmap\wfifo.$procmux$890_Y
+# ys__n177   $techmap\wfifo.$and$IWLS/opencores/rtl/simple_spi/fifo4.v:0$742_Y
+# ys__n178   $techmap\wfifo.$procmux$893_Y
+# ys__n179   $techmap\wfifo.$procmux$896_Y
+# ys__n180   \wfifo.rp [0]
+# ys__n181   \wfifo.rp_p1 [0]
+# ys__n182   $techmap\wfifo.$procmux$907_Y [0]
+# ys__n183   \wfifo.rp [1]
+# ys__n184   \wfifo.rp_p1 [1]
+# ys__n185   $techmap\wfifo.$procmux$907_Y [1]
+# ys__n186   $techmap\wfifo.$0\rp[1:0] [0]
+# ys__n187   $techmap\wfifo.$0\rp[1:0] [1]
+# ys__n188   \wfifo.wp [0]
+# ys__n189   \wfifo.wp_p1 [0]
+# ys__n190   \wfifo.we
+# ys__n191   $techmap\wfifo.$procmux$912_Y [0]
+# ys__n192   \wfifo.wp [1]
+# ys__n193   \wfifo.wp_p1 [1]
+# ys__n194   $techmap\wfifo.$procmux$912_Y [1]
+# ys__n195   $techmap\wfifo.$0\wp[1:0] [0]
+# ys__n196   $techmap\wfifo.$0\wp[1:0] [1]
+# ys__n197   \wfifo.mem[2] [0]
+# ys__n198   \wfifo.din [0]
+# ys__n199   $memory\wfifo.mem$wren[2][0][0]$y$1265
+# ys__n200   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [0]
+# ys__n201   \wfifo.mem[2] [1]
+# ys__n202   \wfifo.din [1]
+# ys__n203   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [1]
+# ys__n204   \wfifo.mem[2] [2]
+# ys__n205   \wfifo.din [2]
+# ys__n206   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [2]
+# ys__n207   \wfifo.mem[2] [3]
+# ys__n208   \wfifo.din [3]
+# ys__n209   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [3]
+# ys__n210   \wfifo.mem[2] [4]
+# ys__n211   \wfifo.din [4]
+# ys__n212   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [4]
+# ys__n213   \wfifo.mem[2] [5]
+# ys__n214   \wfifo.din [5]
+# ys__n215   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [5]
+# ys__n216   \wfifo.mem[2] [6]
+# ys__n217   \wfifo.din [6]
+# ys__n218   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [6]
+# ys__n219   \wfifo.mem[2] [7]
+# ys__n220   \wfifo.din [7]
+# ys__n221   $memory\wfifo.mem$wrmux[2][0][0]$y$1267 [7]
+# ys__n222   \rfifo.mem[3] [0]
+# ys__n223   \treg [0]
+# ys__n224   $memory\rfifo.mem$wren[3][0][0]$y$1222
+# ys__n225   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [0]
+# ys__n226   \rfifo.mem[3] [1]
+# ys__n227   \treg [1]
+# ys__n228   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [1]
+# ys__n229   \rfifo.mem[3] [2]
+# ys__n230   \treg [2]
+# ys__n231   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [2]
+# ys__n232   \rfifo.mem[3] [3]
+# ys__n233   \treg [3]
+# ys__n234   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [3]
+# ys__n235   \rfifo.mem[3] [4]
+# ys__n236   \treg [4]
+# ys__n237   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [4]
+# ys__n238   \rfifo.mem[3] [5]
+# ys__n239   \treg [5]
+# ys__n240   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [5]
+# ys__n241   \rfifo.mem[3] [6]
+# ys__n242   \treg [6]
+# ys__n243   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [6]
+# ys__n244   \rfifo.mem[3] [7]
+# ys__n245   \treg [7]
+# ys__n246   $memory\rfifo.mem$wrmux[3][0][0]$y$1224 [7]
+# ys__n247   \wfifo.mem[3] [0]
+# ys__n248   $memory\wfifo.mem$wren[3][0][0]$y$1271
+# ys__n249   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [0]
+# ys__n250   \wfifo.mem[3] [1]
+# ys__n251   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [1]
+# ys__n252   \wfifo.mem[3] [2]
+# ys__n253   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [2]
+# ys__n254   \wfifo.mem[3] [3]
+# ys__n255   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [3]
+# ys__n256   \wfifo.mem[3] [4]
+# ys__n257   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [4]
+# ys__n258   \wfifo.mem[3] [5]
+# ys__n259   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [5]
+# ys__n260   \wfifo.mem[3] [6]
+# ys__n261   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [6]
+# ys__n262   \wfifo.mem[3] [7]
+# ys__n263   $memory\wfifo.mem$wrmux[3][0][0]$y$1273 [7]
+# ys__n264   \wfifo.mem[1] [0]
+# ys__n265   $memory\wfifo.mem$wren[1][0][0]$y$1257
+# ys__n266   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [0]
+# ys__n267   \wfifo.mem[1] [1]
+# ys__n268   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [1]
+# ys__n269   \wfifo.mem[1] [2]
+# ys__n270   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [2]
+# ys__n271   \wfifo.mem[1] [3]
+# ys__n272   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [3]
+# ys__n273   \wfifo.mem[1] [4]
+# ys__n274   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [4]
+# ys__n275   \wfifo.mem[1] [5]
+# ys__n276   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [5]
+# ys__n277   \wfifo.mem[1] [6]
+# ys__n278   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [6]
+# ys__n279   \wfifo.mem[1] [7]
+# ys__n280   $memory\wfifo.mem$wrmux[1][0][0]$y$1259 [7]
+# ys__n281   $auto$alumacc.cc:485:replace_alu$959.O [0]
+# ys__n282   $procmux$804_Y [0]
+# ys__n283   $auto$alumacc.cc:485:replace_alu$959.O [1]
+# ys__n284   $procmux$804_Y [1]
+# ys__n285   $auto$alumacc.cc:485:replace_alu$959.O [2]
+# ys__n286   $procmux$804_Y [2]
+# ys__n287   $auto$iopadmap.cc:449:execute$2845
+# ys__n288   \wfdout [0]
+# ys__n289   $procmux$830_Y [0]
+# ys__n290   \wfdout [1]
+# ys__n291   $procmux$830_Y [1]
+# ys__n292   \wfdout [2]
+# ys__n293   $procmux$830_Y [2]
+# ys__n294   \wfdout [3]
+# ys__n295   $procmux$830_Y [3]
+# ys__n296   \wfdout [4]
+# ys__n297   $procmux$830_Y [4]
+# ys__n298   \wfdout [5]
+# ys__n299   $procmux$830_Y [5]
+# ys__n300   \wfdout [6]
+# ys__n301   $procmux$830_Y [6]
+# ys__n302   \wfdout [7]
+# ys__n303   $procmux$830_Y [7]
+# ys__n304   \wfifo.mem[0] [0]
+# ys__n305   $memory\wfifo.mem$wren[0][0][0]$y$1249
+# ys__n306   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [0]
+# ys__n307   \wfifo.mem[0] [1]
+# ys__n308   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [1]
+# ys__n309   \wfifo.mem[0] [2]
+# ys__n310   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [2]
+# ys__n311   \wfifo.mem[0] [3]
+# ys__n312   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [3]
+# ys__n313   \wfifo.mem[0] [4]
+# ys__n314   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [4]
+# ys__n315   \wfifo.mem[0] [5]
+# ys__n316   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [5]
+# ys__n317   \wfifo.mem[0] [6]
+# ys__n318   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [6]
+# ys__n319   \wfifo.mem[0] [7]
+# ys__n320   $memory\wfifo.mem$wrmux[0][0][0]$y$1251 [7]
+# ys__n321   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [0]
+# ys__n322   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [1]
+# ys__n323   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [2]
+# ys__n324   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [3]
+# ys__n325   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [4]
+# ys__n326   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [5]
+# ys__n327   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [6]
+# ys__n328   $memory\wfifo.mem$rdmux[0][0][0]$b$1235 [7]
+# ys__n329   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [0]
+# ys__n330   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [1]
+# ys__n331   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [2]
+# ys__n332   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [3]
+# ys__n333   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [4]
+# ys__n334   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [5]
+# ys__n335   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [6]
+# ys__n336   $memory\wfifo.mem$rdmux[0][0][0]$a$1234 [7]
+# ys__n337   \rfifo.mem[0] [0]
+# ys__n338   $memory\rfifo.mem$wren[0][0][0]$y$1200
+# ys__n339   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [0]
+# ys__n340   \rfifo.mem[0] [1]
+# ys__n341   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [1]
+# ys__n342   \rfifo.mem[0] [2]
+# ys__n343   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [2]
+# ys__n344   \rfifo.mem[0] [3]
+# ys__n345   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [3]
+# ys__n346   \rfifo.mem[0] [4]
+# ys__n347   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [4]
+# ys__n348   \rfifo.mem[0] [5]
+# ys__n349   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [5]
+# ys__n350   \rfifo.mem[0] [6]
+# ys__n351   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [6]
+# ys__n352   \rfifo.mem[0] [7]
+# ys__n353   $memory\rfifo.mem$wrmux[0][0][0]$y$1202 [7]
+# ys__n354   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [0]
+# ys__n355   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [0]
+# ys__n356   \rfdout [0]
+# ys__n357   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [1]
+# ys__n358   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [1]
+# ys__n359   \rfdout [1]
+# ys__n360   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [2]
+# ys__n361   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [2]
+# ys__n362   \rfdout [2]
+# ys__n363   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [3]
+# ys__n364   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [3]
+# ys__n365   \rfdout [3]
+# ys__n366   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [4]
+# ys__n367   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [4]
+# ys__n368   \rfdout [4]
+# ys__n369   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [5]
+# ys__n370   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [5]
+# ys__n371   \rfdout [5]
+# ys__n372   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [6]
+# ys__n373   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [6]
+# ys__n374   \rfdout [6]
+# ys__n375   $memory\rfifo.mem$rdmux[0][0][0]$a$1185 [7]
+# ys__n376   $memory\rfifo.mem$rdmux[0][0][0]$b$1186 [7]
+# ys__n377   \rfdout [7]
+# ys__n378   \rfifo.mem[2] [0]
+# ys__n379   $memory\rfifo.mem$wren[2][0][0]$y$1216
+# ys__n380   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [0]
+# ys__n381   \rfifo.mem[2] [1]
+# ys__n382   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [1]
+# ys__n383   \rfifo.mem[2] [2]
+# ys__n384   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [2]
+# ys__n385   \rfifo.mem[2] [3]
+# ys__n386   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [3]
+# ys__n387   \rfifo.mem[2] [4]
+# ys__n388   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [4]
+# ys__n389   \rfifo.mem[2] [5]
+# ys__n390   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [5]
+# ys__n391   \rfifo.mem[2] [6]
+# ys__n392   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [6]
+# ys__n393   \rfifo.mem[2] [7]
+# ys__n394   $memory\rfifo.mem$wrmux[2][0][0]$y$1218 [7]
+# ys__n395   \rfifo.mem[1] [0]
+# ys__n396   \rfifo.mem[1] [1]
+# ys__n397   \rfifo.mem[1] [2]
+# ys__n398   \rfifo.mem[1] [3]
+# ys__n399   \rfifo.mem[1] [4]
+# ys__n400   \rfifo.mem[1] [5]
+# ys__n401   \rfifo.mem[1] [6]
+# ys__n402   \rfifo.mem[1] [7]
+# ys__n403   $memory\rfifo.mem$wren[1][0][0]$y$1208
+# ys__n404   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [0]
+# ys__n405   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [1]
+# ys__n406   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [2]
+# ys__n407   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [3]
+# ys__n408   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [4]
+# ys__n409   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [5]
+# ys__n410   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [6]
+# ys__n411   $memory\rfifo.mem$wrmux[1][0][0]$y$1210 [7]
+# ys__n412   $techmap$techmap2097$auto$pmux2shiftx.cc:720:execute$949.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2095_Y [0]
+# ys__n413   $techmap$techmap2097$auto$pmux2shiftx.cc:720:execute$949.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2095_Y [1]
+# ys__n414   $techmap$techmap2097$auto$pmux2shiftx.cc:720:execute$949.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2096_Y [0]
+# ys__n415   $techmap$techmap2097$auto$pmux2shiftx.cc:720:execute$949.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2096_Y [1]
+# ys__n416   $techmap$techmap2173$auto$pmux2shiftx.cc:720:execute$951.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2172_Y
+# ys__n417   $techmap$techmap2173$auto$pmux2shiftx.cc:720:execute$951.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2171_Y
+# ys__n418   \sper [0]
+# ys__n419   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [0]
+# ys__n420   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [1]
+# ys__n421   \sper [2]
+# ys__n422   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [2]
+# ys__n423   \sper [3]
+# ys__n424   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [3]
+# ys__n425   \sper [4]
+# ys__n426   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [4]
+# ys__n427   \sper [5]
+# ys__n428   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [5]
+# ys__n429   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [6]
+# ys__n430   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2181_Y [7]
+# ys__n431   \spcr [0]
+# ys__n432   \rfempty
+# ys__n433   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [0]
+# ys__n434   \spcr [1]
+# ys__n435   \rffull
+# ys__n436   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [1]
+# ys__n437   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [2]
+# ys__n438   \wffull
+# ys__n439   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [3]
+# ys__n440   \spcr [4]
+# ys__n441   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [4]
+# ys__n442   \spcr [5]
+# ys__n443   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [5]
+# ys__n444   \wcol
+# ys__n445   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [6]
+# ys__n446   \spcr [7]
+# ys__n447   \spif
+# ys__n448   $techmap$techmap2182$auto$pmux2shiftx.cc:720:execute$955.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2180_Y [7]
+# ys__n449   $techmap$techmap2236$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2232_Y [4]
+# ys__n450   $auto$pmux2shiftx.cc:719:execute$948 [0]
+# ys__n451   $auto$pmux2shiftx.cc:719:execute$948 [1]
+# ys__n452   $auto$pmux2shiftx.cc:719:execute$950
+# ys__n453   $0\dat_o[7:0] [0]
+# ys__n454   $0\dat_o[7:0] [1]
+# ys__n455   $0\dat_o[7:0] [2]
+# ys__n456   $0\dat_o[7:0] [3]
+# ys__n457   $0\dat_o[7:0] [4]
+# ys__n458   $0\dat_o[7:0] [5]
+# ys__n459   $0\dat_o[7:0] [6]
+# ys__n460   $0\dat_o[7:0] [7]
+# ys__n461   $techmap$techmap2492$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2490_Y [4]
+# ys__n462   $techmap$techmap2492$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2489_Y [3]
+# ys__n463   $techmap$techmap2492$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2489_Y [0]
+# ys__n464   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [0]
+# ys__n465   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [1]
+# ys__n466   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [2]
+# ys__n467   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [3]
+# ys__n468   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [4]
+# ys__n469   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [5]
+# ys__n470   $techmap$techmap2642$auto$pmux2shiftx.cc:720:execute$953.$ternary$/user/lffan/Desktop/yosys-flow/share/techmap.v:0$2640_Y [6]
+# ys__n471   $auto$iopadmap.cc:449:execute$2840
+# ys__n472   $not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$40_Y
+# ys__n473   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$51_Y
+# ys__n474   $not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$52_Y
+# ys__n475   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$57_Y
+# ys__n476   $not$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$58_Y
+# ys__n477   $auto$rtlil.cc:1905:Eq$1194
+# ys__n478   $auto$rtlil.cc:1905:Eq$1196
+# ys__n479   $auto$rtlil.cc:1905:Eq$1243
+# ys__n480   $auto$rtlil.cc:1905:Eq$1245
+# ys__n481   \rfifo.rst
+# ys__n482   $techmap$techmap2919$auto$simplemap.cc:496:simplemap_adff$1028.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n483   $techmap$techmap2922$auto$simplemap.cc:496:simplemap_adff$1156.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n484   $techmap$techmap2927$auto$simplemap.cc:496:simplemap_adff$1141.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n485   $techmap$techmap2916$auto$simplemap.cc:496:simplemap_adff$1032.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n486   $techmap$techmap2921$auto$simplemap.cc:496:simplemap_adff$1157.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n487   $techmap$techmap2920$auto$simplemap.cc:496:simplemap_adff$1158.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n488   $techmap$techmap2928$auto$simplemap.cc:496:simplemap_adff$1031.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n489   $techmap$techmap2949$auto$simplemap.cc:420:simplemap_dff$992.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n490   $techmap$techmap2915$auto$simplemap.cc:496:simplemap_adff$1033.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n491   $techmap$techmap2918$auto$simplemap.cc:496:simplemap_adff$1037.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n492   $techmap$techmap2946$auto$simplemap.cc:496:simplemap_adff$1038.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n493   $techmap$techmap2917$auto$simplemap.cc:496:simplemap_adff$1159.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n494   $techmap$techmap2926$auto$simplemap.cc:496:simplemap_adff$1029.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2903_Y
+# ys__n495   $techmap$techmap2948$auto$simplemap.cc:420:simplemap_dff$991.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n496   $techmap$techmap2945$auto$simplemap.cc:496:simplemap_adff$1027.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n497   $techmap$techmap2947$auto$simplemap.cc:496:simplemap_adff$1030.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n498   $techmap$techmap2944$auto$simplemap.cc:496:simplemap_adff$1039.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n499   $techmap$techmap2942$auto$simplemap.cc:496:simplemap_adff$1040.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n500   $techmap$techmap2943$auto$simplemap.cc:496:simplemap_adff$1026.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n501   $techmap$techmap2950$auto$simplemap.cc:420:simplemap_dff$993.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n502   $techmap$techmap2925$auto$simplemap.cc:496:simplemap_adff$1036.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n503   $techmap$techmap2954$auto$simplemap.cc:420:simplemap_dff$998.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n504   $techmap$techmap2951$auto$simplemap.cc:420:simplemap_dff$999.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n505   $techmap$techmap2941$auto$simplemap.cc:496:simplemap_adff$1025.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n506   $techmap$techmap2940$auto$simplemap.cc:420:simplemap_dff$986.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n507   $techmap$techmap2952$auto$simplemap.cc:420:simplemap_dff$995.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n508   $techmap$techmap2953$auto$simplemap.cc:496:simplemap_adff$1035.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n509   $techmap$techmap2939$auto$simplemap.cc:420:simplemap_dff$1014.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n510   $techmap$techmap2938$auto$simplemap.cc:420:simplemap_dff$1012.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n511   $techmap$techmap2955$auto$simplemap.cc:420:simplemap_dff$994.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n512   $techmap$techmap2960$auto$simplemap.cc:420:simplemap_dff$1000.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n513   $techmap$techmap2937$auto$simplemap.cc:420:simplemap_dff$989.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n514   $techmap$techmap2924$auto$simplemap.cc:420:simplemap_dff$1155.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n515   $techmap$techmap2957$auto$simplemap.cc:420:simplemap_dff$997.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n516   $techmap$techmap2958$auto$simplemap.cc:420:simplemap_dff$990.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n517   $techmap$techmap2936$auto$simplemap.cc:420:simplemap_dff$987.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n518   $techmap$techmap2959$auto$simplemap.cc:496:simplemap_adff$1034.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2901_Y
+# ys__n519   $techmap$techmap2935$auto$simplemap.cc:420:simplemap_dff$985.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n520   $techmap$techmap2956$auto$simplemap.cc:420:simplemap_dff$996.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n521   $techmap$techmap2934$auto$simplemap.cc:420:simplemap_dff$1137.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n522   $techmap$techmap2929$auto$simplemap.cc:420:simplemap_dff$1015.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2905_Y
+# ys__n523   $techmap$techmap2930$auto$simplemap.cc:496:simplemap_adff$1140.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n524   $techmap$techmap2933$auto$simplemap.cc:496:simplemap_adff$1138.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n525   $techmap$techmap2932$auto$simplemap.cc:420:simplemap_dff$988.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2909_Y
+# ys__n526   $techmap$techmap2923$auto$simplemap.cc:496:simplemap_adff$1016.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n527   $techmap$techmap2931$auto$simplemap.cc:496:simplemap_adff$1139.$not$/user/lffan/Desktop/yosys-flow/share/xilinx/cells_map.v:0$2897_Y
+# ys__n528   $auto$alumacc.cc:485:replace_alu$971.lcu.g [1]
+# ys__n529   $auto$rtlil.cc:1897:And$1255
+# ys__n530   $auto$iopadmap.cc:449:execute$2849
+# ys__n531   $auto$iopadmap.cc:449:execute$2841
+# ys__n532   \wb_acc
+# ys__n533   $auto$rtlil.cc:1897:And$1214
+# ys__n534   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$32_Y
+# ys__n535   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$33_Y
+# ys__n536   \wfov
+# ys__n537   $0\ack_o[0:0]
+# ys__n538   \wr_spsr
+# ys__n539   $auto$rtlil.cc:1897:And$1206
+# ys__n540   \tirq
+# ys__n541   $or$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$50_Y
+# ys__n542   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$53_Y
+# ys__n543   $or$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$56_Y
+# ys__n544   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$59_Y
+# ys__n545   $0\inta_o[0:0]
+# ys__n546   $and$IWLS/opencores/rtl/simple_spi/simple_spi_top.v:0$67_Y
+# ys__n547   $auto$alumacc.cc:485:replace_alu$965.lcu.g [1]
+# ys__n548   $auto$rtlil.cc:1897:And$1263
+# ys__n549   $auto$rtlil.cc:1897:And$1247
+# ys__n550   $auto$rtlil.cc:1897:And$1198
+# ys__n551   $auto$alumacc.cc:501:replace_alu$963 [1]
+# ys__n552   $auto$alumacc.cc:485:replace_alu$959.S [1]
+# ys__n553   $auto$alumacc.cc:485:replace_alu$959.S [2]
+# ys__n554   $auto$alumacc.cc:485:replace_alu$956.S [1]
+# ys__n555   $auto$alumacc.cc:485:replace_alu$956.S [2]
+# ys__n556   $auto$alumacc.cc:485:replace_alu$956.S [3]
+# ys__n557   $auto$alumacc.cc:485:replace_alu$956.S [4]
+# ys__n558   $auto$alumacc.cc:485:replace_alu$956.S [5]
+# ys__n559   $auto$alumacc.cc:485:replace_alu$956.S [6]
+# ys__n560   $auto$alumacc.cc:485:replace_alu$956.S [7]
+# ys__n561   $auto$alumacc.cc:485:replace_alu$956.S [8]
+# ys__n562   $auto$alumacc.cc:485:replace_alu$956.S [9]
+# ys__n563   $auto$alumacc.cc:485:replace_alu$956.S [10]
+# ys__n564   $auto$alumacc.cc:485:replace_alu$956.S [11]
+.names ys__n98
+.names ys__n106
+1
+.names ys__n94 ys__n106 ys__n0
+01 1
+10 1
+.names ys__n0 ys__n1 ys__n2
+-1 1
+1- 1
+.names ys__n58 ys__n3
+0 1
+.names ys__n74 ys__n4
+0 1
+.names ys__n3 ys__n4 ys__n5
+-1 1
+1- 1
+.names ys__n47 ys__n106 ys__n6
+01 1
+10 1
+.names ys__n3 ys__n106 ys__n7
+01 1
+10 1
+.names ys__n6 ys__n7 ys__n8
+-1 1
+1- 1
+.names ys__n8 ys__n5 ys__n9
+11 1
+.names ys__n13 ys__n106 ys__n10
+01 1
+10 1
+.names ys__n71 ys__n11
+0 1
+.names ys__n10 ys__n11 ys__n12
+-1 1
+1- 1
+.names ys__n532 ys__n471 ys__n13
+11 1
+.names ys__n13 ys__n12 ys__n14
+11 1
+.names ys__n10 ys__n17 ys__n15
+-1 1
+1- 1
+.names ys__n13 ys__n15 ys__n16
+11 1
+.names ys__n20 ys__n17
+0 1
+.names ys__n21 ys__n106 ys__n18
+01 1
+10 1
+.names ys__n23 ys__n106 ys__n19
+01 1
+10 1
+.names ys__n18 ys__n19 ys__n20
+-1 1
+1- 1
+.names ys__n21 ys__n19 ys__n22
+-1 1
+1- 1
+.names ys__n18 ys__n23 ys__n24
+-1 1
+1- 1
+.names ys__n25 ys__n26 ys__n27
+-1 1
+1- 1
+.names ys__n28 ys__n29 ys__n30
+-1 1
+1- 1
+.names ys__n31 ys__n32 ys__n33
+-1 1
+1- 1
+.names ys__n34 ys__n35 ys__n36
+-1 1
+1- 1
+.names ys__n37 ys__n38 ys__n39
+-1 1
+1- 1
+.names ys__n40 ys__n41 ys__n42
+-1 1
+1- 1
+.names ys__n27 ys__n30 ys__n43
+-1 1
+1- 1
+.names ys__n33 ys__n36 ys__n44
+-1 1
+1- 1
+.names ys__n39 ys__n42 ys__n45
+-1 1
+1- 1
+.names ys__n43 ys__n44 ys__n46
+-1 1
+1- 1
+.names ys__n46 ys__n45 ys__n47
+-1 1
+1- 1
+.names ys__n48 ys__n49 ys__n50
+-1 1
+1- 1
+.names ys__n50 ys__n51 ys__n52
+-1 1
+1- 1
+.names ys__n53 ys__n54 ys__n55
+-1 1
+1- 1
+.names ys__n72 ys__n106 ys__n56
+01 1
+10 1
+.names ys__n73 ys__n106 ys__n57
+01 1
+10 1
+.names ys__n56 ys__n57 ys__n58
+-1 1
+1- 1
+.names ys__n168 ys__n159 ys__n59
+01 1
+10 1
+.names ys__n171 ys__n162 ys__n60
+01 1
+10 1
+.names ys__n59 ys__n60 ys__n61
+-1 1
+1- 1
+.names ys__n167 ys__n159 ys__n62
+01 1
+10 1
+.names ys__n170 ys__n162 ys__n63
+01 1
+10 1
+.names ys__n62 ys__n63 ys__n64
+-1 1
+1- 1
+.names ys__n189 ys__n180 ys__n65
+01 1
+10 1
+.names ys__n193 ys__n183 ys__n66
+01 1
+10 1
+.names ys__n65 ys__n66 ys__n67
+-1 1
+1- 1
+.names ys__n188 ys__n180 ys__n68
+01 1
+10 1
+.names ys__n192 ys__n183 ys__n69
+01 1
+10 1
+.names ys__n68 ys__n69 ys__n70
+-1 1
+1- 1
+.names ys__n21 ys__n23 ys__n71
+-1 1
+1- 1
+.names ys__n72 ys__n73 ys__n74
+-1 1
+1- 1
+.names ys__n22 ys__n75
+0 1
+.names ys__n76 ys__n77
+0 1
+.names ys__n24 ys__n78
+0 1
+.names ys__n55 ys__n79
+0 1
+.names ys__n61 ys__n80
+0 1
+.names ys__n81 ys__n82
+0 1
+.names ys__n64 ys__n83
+0 1
+.names ys__n67 ys__n84
+0 1
+.names ys__n85 ys__n86
+0 1
+.names ys__n70 ys__n87
+0 1
+.names ys__n53 ys__n106 ys__n89
+01 1
+10 1
+.names ys__n88 ys__n89 ys__n55 ys__n90
+1-0 1
+-11 1
+.names ys__n551 ys__n53 ys__n92
+01 1
+10 1
+.names ys__n91 ys__n92 ys__n55 ys__n93
+1-0 1
+-11 1
+.names ys__n88 ys__n90 ys__n94 ys__n95
+1-0 1
+-11 1
+.names ys__n91 ys__n93 ys__n94 ys__n96
+1-0 1
+-11 1
+.names ys__n52 ys__n97
+0 1
+.names ys__n97 ys__n98 ys__n47 ys__n99
+1-0 1
+-11 1
+.names ys__n3 ys__n99 ys__n100
+11 1
+.names ys__n87 ys__n86 ys__n101
+11 1
+.names ys__n101 ys__n102
+0 1
+.names ys__n4 ys__n102 ys__n103
+11 1
+.names ys__n52 ys__n72 ys__n47 ys__n104
+1-0 1
+-11 1
+.names ys__n47 ys__n73 ys__n105
+11 1
+.names ys__n106 ys__n72 ys__n47 ys__n107
+1-0 1
+-11 1
+.names ys__n106 ys__n73 ys__n47 ys__n108
+1-0 1
+-11 1
+.names ys__n106 ys__n72 ys__n101 ys__n109
+1-0 1
+-11 1
+.names ys__n101 ys__n73 ys__n110
+11 1
+.names ys__n114 ys__n112
+0 1
+.names ys__n111 ys__n112 ys__n52 ys__n113
+1-0 1
+-11 1
+.names ys__n113 ys__n114 ys__n47 ys__n115
+1-0 1
+-11 1
+.names ys__n112 ys__n114 ys__n47 ys__n116
+1-0 1
+-11 1
+.names ys__n111 ys__n112 ys__n117 ys__n118
+1-0 1
+-11 1
+.names ys__n118 ys__n111 ys__n101 ys__n119
+1-0 1
+-11 1
+.names ys__n464 ys__n106 ys__n142 ys__n120
+1-0 1
+-11 1
+.names ys__n94 ys__n546 ys__n122
+11 1
+.names ys__n120 ys__n121 ys__n122 ys__n123
+1-0 1
+-11 1
+.names ys__n465 ys__n106 ys__n142 ys__n124
+1-0 1
+-11 1
+.names ys__n124 ys__n125 ys__n122 ys__n126
+1-0 1
+-11 1
+.names ys__n466 ys__n106 ys__n142 ys__n127
+1-0 1
+-11 1
+.names ys__n127 ys__n128 ys__n122 ys__n129
+1-0 1
+-11 1
+.names ys__n467 ys__n106 ys__n142 ys__n130
+1-0 1
+-11 1
+.names ys__n130 ys__n131 ys__n122 ys__n132
+1-0 1
+-11 1
+.names ys__n468 ys__n106 ys__n142 ys__n133
+1-0 1
+-11 1
+.names ys__n133 ys__n134 ys__n122 ys__n135
+1-0 1
+-11 1
+.names ys__n469 ys__n106 ys__n142 ys__n136
+1-0 1
+-11 1
+.names ys__n136 ys__n137 ys__n122 ys__n138
+1-0 1
+-11 1
+.names ys__n470 ys__n106 ys__n142 ys__n139
+1-0 1
+-11 1
+.names ys__n139 ys__n140 ys__n122 ys__n141
+1-0 1
+-11 1
+.names ys__n142 ys__n143 ys__n122 ys__n144
+1-0 1
+-11 1
+.names ys__n98 ys__n463 ys__n142 ys__n145
+1-0 1
+-11 1
+.names ys__n145 ys__n146 ys__n122 ys__n147
+1-0 1
+-11 1
+.names ys__n98 ys__n434 ys__n142 ys__n148
+1-0 1
+-11 1
+.names ys__n148 ys__n149 ys__n122 ys__n150
+1-0 1
+-11 1
+.names ys__n98 ys__n462 ys__n142 ys__n151
+1-0 1
+-11 1
+.names ys__n151 ys__n152 ys__n122 ys__n153
+1-0 1
+-11 1
+.names ys__n535 ys__n472 ys__n154
+11 1
+.names ys__n81 ys__n98 ys__n154 ys__n155
+1-0 1
+-11 1
+.names ys__n80 ys__n1 ys__n156
+11 1
+.names ys__n155 ys__n156 ys__n157
+-1 1
+1- 1
+.names ys__n94 ys__n157 ys__n158
+11 1
+.names ys__n106 ys__n159 ys__n160
+01 1
+10 1
+.names ys__n159 ys__n160 ys__n154 ys__n161
+1-0 1
+-11 1
+.names ys__n162 ys__n159 ys__n163
+01 1
+10 1
+.names ys__n162 ys__n163 ys__n154 ys__n164
+1-0 1
+-11 1
+.names ys__n94 ys__n161 ys__n165
+11 1
+.names ys__n94 ys__n164 ys__n166
+11 1
+.names ys__n106 ys__n167 ys__n168
+01 1
+10 1
+.names ys__n167 ys__n168 ys__n1 ys__n169
+1-0 1
+-11 1
+.names ys__n170 ys__n167 ys__n171
+01 1
+10 1
+.names ys__n170 ys__n171 ys__n1 ys__n172
+1-0 1
+-11 1
+.names ys__n94 ys__n169 ys__n173
+11 1
+.names ys__n94 ys__n172 ys__n174
+11 1
+.names ys__n85 ys__n98 ys__n175 ys__n176
+1-0 1
+-11 1
+.names ys__n84 ys__n190 ys__n177
+11 1
+.names ys__n176 ys__n177 ys__n178
+-1 1
+1- 1
+.names ys__n94 ys__n178 ys__n179
+11 1
+.names ys__n106 ys__n180 ys__n181
+01 1
+10 1
+.names ys__n180 ys__n181 ys__n175 ys__n182
+1-0 1
+-11 1
+.names ys__n183 ys__n180 ys__n184
+01 1
+10 1
+.names ys__n183 ys__n184 ys__n175 ys__n185
+1-0 1
+-11 1
+.names ys__n94 ys__n182 ys__n186
+11 1
+.names ys__n94 ys__n185 ys__n187
+11 1
+.names ys__n106 ys__n188 ys__n189
+01 1
+10 1
+.names ys__n535 ys__n471 ys__n190
+11 1
+.names ys__n188 ys__n189 ys__n190 ys__n191
+1-0 1
+-11 1
+.names ys__n192 ys__n188 ys__n193
+01 1
+10 1
+.names ys__n192 ys__n193 ys__n190 ys__n194
+1-0 1
+-11 1
+.names ys__n94 ys__n191 ys__n195
+11 1
+.names ys__n94 ys__n194 ys__n196
+11 1
+.names ys__n548 ys__n190 ys__n199
+11 1
+.names ys__n197 ys__n198 ys__n199 ys__n200
+1-0 1
+-11 1
+.names ys__n201 ys__n202 ys__n199 ys__n203
+1-0 1
+-11 1
+.names ys__n204 ys__n205 ys__n199 ys__n206
+1-0 1
+-11 1
+.names ys__n207 ys__n208 ys__n199 ys__n209
+1-0 1
+-11 1
+.names ys__n210 ys__n211 ys__n199 ys__n212
+1-0 1
+-11 1
+.names ys__n213 ys__n214 ys__n199 ys__n215
+1-0 1
+-11 1
+.names ys__n216 ys__n217 ys__n199 ys__n218
+1-0 1
+-11 1
+.names ys__n219 ys__n220 ys__n199 ys__n221
+1-0 1
+-11 1
+.names ys__n547 ys__n1 ys__n224
+11 1
+.names ys__n222 ys__n223 ys__n224 ys__n225
+1-0 1
+-11 1
+.names ys__n226 ys__n227 ys__n224 ys__n228
+1-0 1
+-11 1
+.names ys__n229 ys__n230 ys__n224 ys__n231
+1-0 1
+-11 1
+.names ys__n232 ys__n233 ys__n224 ys__n234
+1-0 1
+-11 1
+.names ys__n235 ys__n236 ys__n224 ys__n237
+1-0 1
+-11 1
+.names ys__n238 ys__n239 ys__n224 ys__n240
+1-0 1
+-11 1
+.names ys__n241 ys__n242 ys__n224 ys__n243
+1-0 1
+-11 1
+.names ys__n244 ys__n245 ys__n224 ys__n246
+1-0 1
+-11 1
+.names ys__n528 ys__n190 ys__n248
+11 1
+.names ys__n247 ys__n198 ys__n248 ys__n249
+1-0 1
+-11 1
+.names ys__n250 ys__n202 ys__n248 ys__n251
+1-0 1
+-11 1
+.names ys__n252 ys__n205 ys__n248 ys__n253
+1-0 1
+-11 1
+.names ys__n254 ys__n208 ys__n248 ys__n255
+1-0 1
+-11 1
+.names ys__n256 ys__n211 ys__n248 ys__n257
+1-0 1
+-11 1
+.names ys__n258 ys__n214 ys__n248 ys__n259
+1-0 1
+-11 1
+.names ys__n260 ys__n217 ys__n248 ys__n261
+1-0 1
+-11 1
+.names ys__n262 ys__n220 ys__n248 ys__n263
+1-0 1
+-11 1
+.names ys__n529 ys__n190 ys__n265
+11 1
+.names ys__n264 ys__n198 ys__n265 ys__n266
+1-0 1
+-11 1
+.names ys__n267 ys__n202 ys__n265 ys__n268
+1-0 1
+-11 1
+.names ys__n269 ys__n205 ys__n265 ys__n270
+1-0 1
+-11 1
+.names ys__n271 ys__n208 ys__n265 ys__n272
+1-0 1
+-11 1
+.names ys__n273 ys__n211 ys__n265 ys__n274
+1-0 1
+-11 1
+.names ys__n275 ys__n214 ys__n265 ys__n276
+1-0 1
+-11 1
+.names ys__n277 ys__n217 ys__n265 ys__n278
+1-0 1
+-11 1
+.names ys__n279 ys__n220 ys__n265 ys__n280
+1-0 1
+-11 1
+.names ys__n281 ys__n106 ys__n58 ys__n282
+1-0 1
+-11 1
+.names ys__n283 ys__n106 ys__n58 ys__n284
+1-0 1
+-11 1
+.names ys__n285 ys__n106 ys__n58 ys__n286
+1-0 1
+-11 1
+.names ys__n329 ys__n321 ys__n183 ys__n288
+1-0 1
+-11 1
+.names ys__n287 ys__n288 ys__n58 ys__n289
+1-0 1
+-11 1
+.names ys__n330 ys__n322 ys__n183 ys__n290
+1-0 1
+-11 1
+.names ys__n223 ys__n290 ys__n58 ys__n291
+1-0 1
+-11 1
+.names ys__n331 ys__n323 ys__n183 ys__n292
+1-0 1
+-11 1
+.names ys__n227 ys__n292 ys__n58 ys__n293
+1-0 1
+-11 1
+.names ys__n332 ys__n324 ys__n183 ys__n294
+1-0 1
+-11 1
+.names ys__n230 ys__n294 ys__n58 ys__n295
+1-0 1
+-11 1
+.names ys__n333 ys__n325 ys__n183 ys__n296
+1-0 1
+-11 1
+.names ys__n233 ys__n296 ys__n58 ys__n297
+1-0 1
+-11 1
+.names ys__n334 ys__n326 ys__n183 ys__n298
+1-0 1
+-11 1
+.names ys__n236 ys__n298 ys__n58 ys__n299
+1-0 1
+-11 1
+.names ys__n335 ys__n327 ys__n183 ys__n300
+1-0 1
+-11 1
+.names ys__n239 ys__n300 ys__n58 ys__n301
+1-0 1
+-11 1
+.names ys__n336 ys__n328 ys__n183 ys__n302
+1-0 1
+-11 1
+.names ys__n242 ys__n302 ys__n58 ys__n303
+1-0 1
+-11 1
+.names ys__n549 ys__n190 ys__n305
+11 1
+.names ys__n304 ys__n198 ys__n305 ys__n306
+1-0 1
+-11 1
+.names ys__n307 ys__n202 ys__n305 ys__n308
+1-0 1
+-11 1
+.names ys__n309 ys__n205 ys__n305 ys__n310
+1-0 1
+-11 1
+.names ys__n311 ys__n208 ys__n305 ys__n312
+1-0 1
+-11 1
+.names ys__n313 ys__n211 ys__n305 ys__n314
+1-0 1
+-11 1
+.names ys__n315 ys__n214 ys__n305 ys__n316
+1-0 1
+-11 1
+.names ys__n317 ys__n217 ys__n305 ys__n318
+1-0 1
+-11 1
+.names ys__n319 ys__n220 ys__n305 ys__n320
+1-0 1
+-11 1
+.names ys__n197 ys__n247 ys__n180 ys__n321
+1-0 1
+-11 1
+.names ys__n201 ys__n250 ys__n180 ys__n322
+1-0 1
+-11 1
+.names ys__n204 ys__n252 ys__n180 ys__n323
+1-0 1
+-11 1
+.names ys__n207 ys__n254 ys__n180 ys__n324
+1-0 1
+-11 1
+.names ys__n210 ys__n256 ys__n180 ys__n325
+1-0 1
+-11 1
+.names ys__n213 ys__n258 ys__n180 ys__n326
+1-0 1
+-11 1
+.names ys__n216 ys__n260 ys__n180 ys__n327
+1-0 1
+-11 1
+.names ys__n219 ys__n262 ys__n180 ys__n328
+1-0 1
+-11 1
+.names ys__n304 ys__n264 ys__n180 ys__n329
+1-0 1
+-11 1
+.names ys__n307 ys__n267 ys__n180 ys__n330
+1-0 1
+-11 1
+.names ys__n309 ys__n269 ys__n180 ys__n331
+1-0 1
+-11 1
+.names ys__n311 ys__n271 ys__n180 ys__n332
+1-0 1
+-11 1
+.names ys__n313 ys__n273 ys__n180 ys__n333
+1-0 1
+-11 1
+.names ys__n315 ys__n275 ys__n180 ys__n334
+1-0 1
+-11 1
+.names ys__n317 ys__n277 ys__n180 ys__n335
+1-0 1
+-11 1
+.names ys__n319 ys__n279 ys__n180 ys__n336
+1-0 1
+-11 1
+.names ys__n550 ys__n1 ys__n338
+11 1
+.names ys__n337 ys__n223 ys__n338 ys__n339
+1-0 1
+-11 1
+.names ys__n340 ys__n227 ys__n338 ys__n341
+1-0 1
+-11 1
+.names ys__n342 ys__n230 ys__n338 ys__n343
+1-0 1
+-11 1
+.names ys__n344 ys__n233 ys__n338 ys__n345
+1-0 1
+-11 1
+.names ys__n346 ys__n236 ys__n338 ys__n347
+1-0 1
+-11 1
+.names ys__n348 ys__n239 ys__n338 ys__n349
+1-0 1
+-11 1
+.names ys__n350 ys__n242 ys__n338 ys__n351
+1-0 1
+-11 1
+.names ys__n352 ys__n245 ys__n338 ys__n353
+1-0 1
+-11 1
+.names ys__n337 ys__n395 ys__n159 ys__n354
+1-0 1
+-11 1
+.names ys__n378 ys__n222 ys__n159 ys__n355
+1-0 1
+-11 1
+.names ys__n354 ys__n355 ys__n162 ys__n356
+1-0 1
+-11 1
+.names ys__n340 ys__n396 ys__n159 ys__n357
+1-0 1
+-11 1
+.names ys__n381 ys__n226 ys__n159 ys__n358
+1-0 1
+-11 1
+.names ys__n357 ys__n358 ys__n162 ys__n359
+1-0 1
+-11 1
+.names ys__n342 ys__n397 ys__n159 ys__n360
+1-0 1
+-11 1
+.names ys__n383 ys__n229 ys__n159 ys__n361
+1-0 1
+-11 1
+.names ys__n360 ys__n361 ys__n162 ys__n362
+1-0 1
+-11 1
+.names ys__n344 ys__n398 ys__n159 ys__n363
+1-0 1
+-11 1
+.names ys__n385 ys__n232 ys__n159 ys__n364
+1-0 1
+-11 1
+.names ys__n363 ys__n364 ys__n162 ys__n365
+1-0 1
+-11 1
+.names ys__n346 ys__n399 ys__n159 ys__n366
+1-0 1
+-11 1
+.names ys__n387 ys__n235 ys__n159 ys__n367
+1-0 1
+-11 1
+.names ys__n366 ys__n367 ys__n162 ys__n368
+1-0 1
+-11 1
+.names ys__n348 ys__n400 ys__n159 ys__n369
+1-0 1
+-11 1
+.names ys__n389 ys__n238 ys__n159 ys__n370
+1-0 1
+-11 1
+.names ys__n369 ys__n370 ys__n162 ys__n371
+1-0 1
+-11 1
+.names ys__n350 ys__n401 ys__n159 ys__n372
+1-0 1
+-11 1
+.names ys__n391 ys__n241 ys__n159 ys__n373
+1-0 1
+-11 1
+.names ys__n372 ys__n373 ys__n162 ys__n374
+1-0 1
+-11 1
+.names ys__n352 ys__n402 ys__n159 ys__n375
+1-0 1
+-11 1
+.names ys__n393 ys__n244 ys__n159 ys__n376
+1-0 1
+-11 1
+.names ys__n375 ys__n376 ys__n162 ys__n377
+1-0 1
+-11 1
+.names ys__n533 ys__n1 ys__n379
+11 1
+.names ys__n378 ys__n223 ys__n379 ys__n380
+1-0 1
+-11 1
+.names ys__n381 ys__n227 ys__n379 ys__n382
+1-0 1
+-11 1
+.names ys__n383 ys__n230 ys__n379 ys__n384
+1-0 1
+-11 1
+.names ys__n385 ys__n233 ys__n379 ys__n386
+1-0 1
+-11 1
+.names ys__n387 ys__n236 ys__n379 ys__n388
+1-0 1
+-11 1
+.names ys__n389 ys__n239 ys__n379 ys__n390
+1-0 1
+-11 1
+.names ys__n391 ys__n242 ys__n379 ys__n392
+1-0 1
+-11 1
+.names ys__n393 ys__n245 ys__n379 ys__n394
+1-0 1
+-11 1
+.names ys__n539 ys__n1 ys__n403
+11 1
+.names ys__n395 ys__n223 ys__n403 ys__n404
+1-0 1
+-11 1
+.names ys__n396 ys__n227 ys__n403 ys__n405
+1-0 1
+-11 1
+.names ys__n397 ys__n230 ys__n403 ys__n406
+1-0 1
+-11 1
+.names ys__n398 ys__n233 ys__n403 ys__n407
+1-0 1
+-11 1
+.names ys__n399 ys__n236 ys__n403 ys__n408
+1-0 1
+-11 1
+.names ys__n400 ys__n239 ys__n403 ys__n409
+1-0 1
+-11 1
+.names ys__n401 ys__n242 ys__n403 ys__n410
+1-0 1
+-11 1
+.names ys__n402 ys__n245 ys__n403 ys__n411
+1-0 1
+-11 1
+.names ys__n109 ys__n107 ys__n72 ys__n412
+1-0 1
+-11 1
+.names ys__n110 ys__n108 ys__n72 ys__n413
+1-0 1
+-11 1
+.names ys__n98 ys__n104 ys__n72 ys__n414
+1-0 1
+-11 1
+.names ys__n98 ys__n105 ys__n72 ys__n415
+1-0 1
+-11 1
+.names ys__n114 ys__n115 ys__n72 ys__n416
+1-0 1
+-11 1
+.names ys__n119 ys__n116 ys__n72 ys__n417
+1-0 1
+-11 1
+.names ys__n356 ys__n418 ys__n21 ys__n419
+1-0 1
+-11 1
+.names ys__n359 ys__n142 ys__n21 ys__n420
+1-0 1
+-11 1
+.names ys__n362 ys__n421 ys__n21 ys__n422
+1-0 1
+-11 1
+.names ys__n365 ys__n423 ys__n21 ys__n424
+1-0 1
+-11 1
+.names ys__n368 ys__n425 ys__n21 ys__n426
+1-0 1
+-11 1
+.names ys__n371 ys__n427 ys__n21 ys__n428
+1-0 1
+-11 1
+.names ys__n374 ys__n88 ys__n21 ys__n429
+1-0 1
+-11 1
+.names ys__n377 ys__n91 ys__n21 ys__n430
+1-0 1
+-11 1
+.names ys__n83 ys__n82 ys__n432
+11 1
+.names ys__n431 ys__n432 ys__n21 ys__n433
+1-0 1
+-11 1
+.names ys__n83 ys__n81 ys__n435
+11 1
+.names ys__n434 ys__n435 ys__n21 ys__n436
+1-0 1
+-11 1
+.names ys__n117 ys__n101 ys__n21 ys__n437
+1-0 1
+-11 1
+.names ys__n87 ys__n85 ys__n438
+11 1
+.names ys__n111 ys__n438 ys__n21 ys__n439
+1-0 1
+-11 1
+.names ys__n440 ys__n98 ys__n21 ys__n441
+1-0 1
+-11 1
+.names ys__n442 ys__n98 ys__n21 ys__n443
+1-0 1
+-11 1
+.names ys__n94 ys__n444 ys__n21 ys__n445
+1-0 1
+-11 1
+.names ys__n446 ys__n447 ys__n21 ys__n448
+1-0 1
+-11 1
+.names ys__n431 ys__n449
+0 1
+.names ys__n412 ys__n414 ys__n73 ys__n450
+1-0 1
+-11 1
+.names ys__n413 ys__n415 ys__n73 ys__n451
+1-0 1
+-11 1
+.names ys__n417 ys__n416 ys__n73 ys__n452
+1-0 1
+-11 1
+.names ys__n433 ys__n419 ys__n23 ys__n453
+1-0 1
+-11 1
+.names ys__n436 ys__n420 ys__n23 ys__n454
+1-0 1
+-11 1
+.names ys__n437 ys__n422 ys__n23 ys__n455
+1-0 1
+-11 1
+.names ys__n439 ys__n424 ys__n23 ys__n456
+1-0 1
+-11 1
+.names ys__n441 ys__n426 ys__n23 ys__n457
+1-0 1
+-11 1
+.names ys__n443 ys__n428 ys__n23 ys__n458
+1-0 1
+-11 1
+.names ys__n445 ys__n429 ys__n23 ys__n459
+1-0 1
+-11 1
+.names ys__n448 ys__n430 ys__n23 ys__n460
+1-0 1
+-11 1
+.names ys__n449 ys__n106 ys__n434 ys__n461
+1-0 1
+-11 1
+.names ys__n98 ys__n431 ys__n434 ys__n462
+1-0 1
+-11 1
+.names ys__n431 ys__n106 ys__n434 ys__n463
+1-0 1
+-11 1
+.names ys__n463 ys__n106 ys__n418 ys__n464
+1-0 1
+-11 1
+.names ys__n434 ys__n106 ys__n418 ys__n465
+1-0 1
+-11 1
+.names ys__n462 ys__n106 ys__n418 ys__n466
+1-0 1
+-11 1
+.names ys__n462 ys__n461 ys__n418 ys__n467
+1-0 1
+-11 1
+.names ys__n98 ys__n461 ys__n418 ys__n468
+1-0 1
+-11 1
+.names ys__n98 ys__n434 ys__n418 ys__n469
+1-0 1
+-11 1
+.names ys__n98 ys__n462 ys__n418 ys__n470
+1-0 1
+-11 1
+.names ys__n471 ys__n472
+0 1
+.names ys__n538 ys__n220 ys__n473
+11 1
+.names ys__n473 ys__n474
+0 1
+.names ys__n538 ys__n217 ys__n475
+11 1
+.names ys__n475 ys__n476
+0 1
+.names ys__n167 ys__n477
+0 1
+.names ys__n170 ys__n478
+0 1
+.names ys__n188 ys__n479
+0 1
+.names ys__n192 ys__n480
+0 1
+.names ys__n481 ys__n482
+0 1
+.names ys__n481 ys__n483
+0 1
+.names ys__n481 ys__n484
+0 1
+.names ys__n481 ys__n485
+0 1
+.names ys__n481 ys__n486
+0 1
+.names ys__n481 ys__n487
+0 1
+.names ys__n481 ys__n488
+0 1
+.names ys__n94 ys__n489
+0 1
+.names ys__n481 ys__n490
+0 1
+.names ys__n481 ys__n491
+0 1
+.names ys__n481 ys__n492
+0 1
+.names ys__n481 ys__n493
+0 1
+.names ys__n481 ys__n494
+0 1
+.names ys__n94 ys__n495
+0 1
+.names ys__n481 ys__n496
+0 1
+.names ys__n481 ys__n497
+0 1
+.names ys__n481 ys__n498
+0 1
+.names ys__n481 ys__n499
+0 1
+.names ys__n481 ys__n500
+0 1
+.names ys__n94 ys__n501
+0 1
+.names ys__n481 ys__n502
+0 1
+.names ys__n94 ys__n503
+0 1
+.names ys__n94 ys__n504
+0 1
+.names ys__n481 ys__n505
+0 1
+.names ys__n94 ys__n506
+0 1
+.names ys__n94 ys__n507
+0 1
+.names ys__n481 ys__n508
+0 1
+.names ys__n94 ys__n509
+0 1
+.names ys__n122 ys__n510
+0 1
+.names ys__n94 ys__n511
+0 1
+.names ys__n94 ys__n512
+0 1
+.names ys__n94 ys__n513
+0 1
+.names ys__n481 ys__n514
+0 1
+.names ys__n94 ys__n515
+0 1
+.names ys__n94 ys__n516
+0 1
+.names ys__n94 ys__n517
+0 1
+.names ys__n481 ys__n518
+0 1
+.names ys__n94 ys__n519
+0 1
+.names ys__n94 ys__n520
+0 1
+.names ys__n481 ys__n521
+0 1
+.names ys__n94 ys__n522
+0 1
+.names ys__n481 ys__n523
+0 1
+.names ys__n481 ys__n524
+0 1
+.names ys__n94 ys__n525
+0 1
+.names ys__n481 ys__n526
+0 1
+.names ys__n481 ys__n527
+0 1
+.names ys__n192 ys__n188 ys__n528
+11 1
+.names ys__n188 ys__n480 ys__n529
+11 1
+.names ys__n530 ys__n531 ys__n532
+11 1
+.names ys__n477 ys__n170 ys__n533
+11 1
+.names ys__n532 ys__n75 ys__n534
+11 1
+.names ys__n534 ys__n76 ys__n535
+11 1
+.names ys__n190 ys__n438 ys__n536
+11 1
+.names ys__n532 ys__n77 ys__n537
+11 1
+.names ys__n13 ys__n78 ys__n538
+11 1
+.names ys__n167 ys__n478 ys__n539
+11 1
+.names ys__n79 ys__n1 ys__n540
+11 1
+.names ys__n540 ys__n447 ys__n541
+-1 1
+1- 1
+.names ys__n541 ys__n474 ys__n542
+11 1
+.names ys__n536 ys__n444 ys__n543
+-1 1
+1- 1
+.names ys__n543 ys__n476 ys__n544
+11 1
+.names ys__n447 ys__n446 ys__n545
+11 1
+.names ys__n47 ys__n74 ys__n546
+11 1
+.names ys__n170 ys__n167 ys__n547
+11 1
+.names ys__n479 ys__n192 ys__n548
+11 1
+.names ys__n479 ys__n480 ys__n549
+11 1
+.names ys__n477 ys__n478 ys__n550
+11 1
+.names ys__n54 ys__n106 ys__n551
+01 1
+10 1
+.names ys__n49 ys__n106 ys__n552
+01 1
+10 1
+.names ys__n51 ys__n106 ys__n553
+01 1
+10 1
+.names ys__n26 ys__n106 ys__n554
+01 1
+10 1
+.names ys__n28 ys__n106 ys__n555
+01 1
+10 1
+.names ys__n29 ys__n106 ys__n556
+01 1
+10 1
+.names ys__n31 ys__n106 ys__n557
+01 1
+10 1
+.names ys__n32 ys__n106 ys__n558
+01 1
+10 1
+.names ys__n34 ys__n106 ys__n559
+01 1
+10 1
+.names ys__n35 ys__n106 ys__n560
+01 1
+10 1
+.names ys__n37 ys__n106 ys__n561
+01 1
+10 1
+.names ys__n38 ys__n106 ys__n562
+01 1
+10 1
+.names ys__n40 ys__n106 ys__n563
+01 1
+10 1
+.names ys__n41 ys__n106 ys__n564
+01 1
+10 1
+.end
