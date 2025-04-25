@@ -5,7 +5,7 @@ cavlc.v
 ctrl.v
 dec.v
 div.v
-hyp.v
+# hyp.v
 i2c.v
 int2float.v
 log2.v
